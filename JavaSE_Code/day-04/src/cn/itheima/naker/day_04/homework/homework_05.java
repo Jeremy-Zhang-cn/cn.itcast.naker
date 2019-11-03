@@ -20,9 +20,19 @@ public class homework_05 {
 
 		//使用随机数（范围为0-100）为数组赋值
 		Random rd = new Random();
+		int count = 0;
+		double avg = 0.0;
+		int sum = 0;
+
 		for (int i = 0; i < 5; i++) {
 
-			score[i] = rd.nextInt(100);
+			score[i] = rd.nextInt(101);
+
+			if (score[i] < 60) {	//判断不及格人数
+				count++;
+			}
+			sum += score[i];    //求出班级的总分数
+			avg = sum * 1.0 / score.length;    //求出班级的平均分
 
 		}
 
@@ -36,28 +46,9 @@ public class homework_05 {
 
 		System.out.println("----------------------");
 
-		//求出班级不及格人数(分数低于60分的就是不及格)
-		int count = 0;
-		for (int i : score) {
-
-			if (i < 60) {
-				count++;
-			}
-		}
-		System.out.printf("该班级成绩不合格的人数为：%d\n", count);
-
-		double avg = 0.0;
-		int sum = 0;
-
-		for (int i = 0; i < score.length; i++) {
-
-			sum += score[i];    //求出班级的总分数
-			avg = sum * 1.0 / score.length;    //求出班级的平均分
-
-		}
-
-		System.out.printf("班级平均分为：%.1f\n", avg);
-		System.out.printf("班级总分为：%d\n", sum);
+		System.out.printf("该班级成绩不合格的人数为：%d人\n", count);
+		System.out.printf("班级平均分为：%.1f分\n", avg);
+		System.out.printf("班级总分为：%d分\n", sum);
 
 	}
 }
