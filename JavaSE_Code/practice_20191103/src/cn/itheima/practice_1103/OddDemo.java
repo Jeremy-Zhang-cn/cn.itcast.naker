@@ -18,7 +18,7 @@ public class OddDemo {
 
 				count++;
 				System.out.printf("%d \t", i);
-				
+
 				if (count % 5 == 0) {
 					System.out.println("");
 				}
