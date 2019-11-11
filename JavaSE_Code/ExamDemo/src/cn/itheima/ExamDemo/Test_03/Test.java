@@ -32,7 +32,7 @@ public class Test {
 		list.add(singer3);
 		list.add(singer4);
 
-		for (int i = list.size() - 1; i >= 0; i--) {
+		for (int i = list.size() - 1; i >= 0; i--) {	//逆序遍历，确保移除元素后索引的一致性
 			if (list.get(i).getAge() > 30) {
 				list.get(i).setLike("打保龄球");
 			} else if (list.get(i).getAge() < 20) {

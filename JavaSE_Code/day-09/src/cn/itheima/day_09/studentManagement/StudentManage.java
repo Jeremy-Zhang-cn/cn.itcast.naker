@@ -13,7 +13,6 @@ public class StudentManage {
 
 	public static void main(String[] args) {
 
-
 		ArrayList<Student> list = new ArrayList<>();
 
 		while (true) {
@@ -77,7 +76,7 @@ public class StudentManage {
 			System.out.println("请输入学号：");
 			stuId = sc.next();
 
-			if (isUsed(list, stuId)){
+			if (isUsed(list, stuId)){	//判断学号是否被占用
 				System.out.println("学号已被占用，请重新输入");
 			} else {
 				stu.setStuId(stuId);
@@ -90,9 +89,8 @@ public class StudentManage {
 
 				list.add(stu);
 				System.out.println("添加学生信息成功");
-				return;		//结束当前方法（addStudent())
+				return;		//结束当前方法(addStudent())
 			}
-
 		}
 
 	}
@@ -140,6 +138,7 @@ public class StudentManage {
 			}
 		}
 		System.out.println("该学号不存在，请输入正确的学号");
+
 	}
 
 	//返回值类型为void, 参数类型为ArrayList<Student>, 查看集合中所有对象属性
@@ -155,8 +154,6 @@ public class StudentManage {
 			System.out.println(student.getStuId() + "\t" + student.getName() + "\t\t"
 					+ student.getAge() + "岁\t\t " + student.getAddress());
 		}
-
-
 
 	}
 

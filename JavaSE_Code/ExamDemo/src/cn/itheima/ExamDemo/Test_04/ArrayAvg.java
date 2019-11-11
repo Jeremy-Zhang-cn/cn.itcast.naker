@@ -14,7 +14,7 @@ public class ArrayAvg {
 		int[] arr = new int[8];
 		int sum = 0, avg = 0;
 		for (int i = 0; i < 8; i++) {
-			arr[i] = rd.nextInt(10) + 1;
+			arr[i] = rd.nextInt(10) + 1;		//生成一个1~10的随机数
 			sum += arr[i];
 			System.out.print(arr[i] + "  ");
 		}

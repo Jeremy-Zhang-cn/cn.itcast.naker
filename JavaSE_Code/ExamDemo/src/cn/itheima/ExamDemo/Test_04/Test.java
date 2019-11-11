@@ -19,6 +19,7 @@ public class Test {
 	public static void main(String[] args) {
 
 		Random rd = new Random();
+
 		Tram tram1 = new Tram("比亚迪", 100000, rd.nextInt(2001));
 		Tram tram2 = new Tram("特斯拉", 350000, rd.nextInt(2001));
 		Tram tram3 = new Tram("一汽", 150000, rd.nextInt(2001));
@@ -28,29 +29,35 @@ public class Test {
 		list.add(tram2);
 		list.add(tram3);
 
-		isOver(list);
+		isOverwhelm(list);
+
 		System.out.println("----------------");
-		for (int i = 0; i < list.size(); i++) {
-			System.out.println("Tram{品牌=‘" + list.get(i).getBrand() + "’, 价格=" +
-					list.get(i).getPrice() + ", 已行驶距离=" + list.get(i).getMile() + "}");
+
+		for (Tram tram : list) {
+			printElemInfo(tram);
 		}
 
 	}
 
-	private static void isOver(ArrayList<Tram> list) {
+	private static void isOverwhelm(ArrayList<Tram> list) {	//遍历集合，判断里程是否超过指定条件
 
-		int count = 0;
-		for (int i = 0; i < list.size(); i++) {
-			if (list.get(i).getMile() < 1000) {
-				System.out.println("Tram{品牌=‘" + list.get(i).getBrand() + "’, 价格=" +
-						list.get(i).getPrice() + ", 已行驶距离=" + list.get(i).getMile() + "}");
-				count++;
+		int count = 0;	//设置一个判断标志
+
+		for (Tram tram : list) {	//foreach循环遍历
+			if (tram.getMile() < 1000) {
+				printElemInfo(tram);
+				count++;	//每获取到一个符合条件的对象元素，数量加1
 			}
 		}
 
-		if (count == 0) {
+		if (count == 0) {	//如果循环结束仍没有发现符合条件的对象，输出对应提示
 			System.out.println("没有行驶距离低于1000公里的车");
 		}
+	}
+
+	private static void printElemInfo(Tram tram) {	//格式化输出对象各属性
+		System.out.println("Tram{品牌=‘" + tram.getBrand() + "’, 价格=" +
+				tram.getPrice() + ", 已行驶距离=" + tram.getMile() + "}");
 	}
 
 }
