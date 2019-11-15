@@ -11,6 +11,8 @@ public class verifyCode {
 	 */
 	public static void main(String[] args) {
 		System.out.println("第一种方法产生的验证码为： " + verifyCodeDeliver());
+		System.out.println("第二种方法产生的验证码为： " + verifyCode());
+
 	}
 
 
@@ -65,7 +67,7 @@ public class verifyCode {
 
 		char c = (char) (rd.nextInt(57 - 48 + 1) + 48);	//产生一个0-9的字符
 
-		sb2.setCharAt(rd.nextInt(sb.length()), c);	//用随机产生的数字字符随机替换sb2某索引处的值，保证其至少有一个数字字符
+		sb2.setCharAt(rd.nextInt(sb2.length()) , c);	//用随机产生的数字字符随机替换sb2某索引处的值，保证其至少有一个数字字符
 
 		return sb2.toString();
 	}
