@@ -33,43 +33,18 @@ public class Demo_03 {
 
 		int year = c.get(Calendar.YEAR);
 		int weekday = c.get(Calendar.DAY_OF_WEEK);
-		String week = null;
 
-		switch (weekday) {
-
-			case 1:
-				week = "日";
-				break;
-
-			case 2:
-				week = "一";
-				break;
-
-			case 3:
-				week = "二";
-				break;
-
-			case 4:
-				week = "三";
-				break;
-			case 5:
-				week = "四";
-				break;
-
-			case 6:
-				week = "五";
-				break;
-
-			case 7:
-				week = "六";
-				break;
-
-		}
 
 		int day = c.get(Calendar.DAY_OF_YEAR);
 
 		System.out.print(sdf2.format(d1));
-		System.out.println(" 是星期" + week + ",是" + year + "年的第" + day + "天");
+		System.out.println(" 是" + getWeekday(weekday) + ",是" + year + "年的第" + day + "天");
 
+	}
+
+	//查表法
+	public static String getWeekday(int weekdays) {
+		String[] weekday = {"", "星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"};
+		return weekday[weekdays];
 	}
 }
