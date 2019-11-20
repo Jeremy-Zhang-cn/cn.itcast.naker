@@ -26,5 +26,5 @@ public class ListTest {
 			System.out.println(integer);
 		}
 	}
-	
+
 }
