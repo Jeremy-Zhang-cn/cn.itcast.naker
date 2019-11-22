@@ -1,4 +1,4 @@
-package com.itheima.day_06.Demo_02;
+package com.itheima.day_06.demo_02;
 
 import java.util.Comparator;
 import java.util.TreeSet;

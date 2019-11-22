@@ -1,4 +1,4 @@
-package com.itheima.day_03.InnerClass;
+package com.itheima.day_03.innerClass;
 
 public class InnerDemo {
 

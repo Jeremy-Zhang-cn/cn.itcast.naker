@@ -1,4 +1,4 @@
-package com.itheima.day_06.homework.Demo_02;
+package com.itheima.day_06.homework.demo_02;
 
 public class Person implements Comparable<Person> {
 

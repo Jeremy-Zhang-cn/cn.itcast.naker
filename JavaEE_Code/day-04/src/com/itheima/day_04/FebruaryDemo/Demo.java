@@ -1,4 +1,4 @@
-package com.itheima.day_04.FebruaryDemo;
+package com.itheima.day_04.februaryDemo;
 
 import java.util.Calendar;
 import java.util.Scanner;

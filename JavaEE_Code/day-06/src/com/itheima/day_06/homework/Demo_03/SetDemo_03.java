@@ -1,5 +1,6 @@
-package com.itheima.day_06.homework.Demo_03;
+package com.itheima.day_06.homework.demo_03;
 
+import java.util.LinkedHashSet;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
@@ -14,7 +15,7 @@ public class SetDemo_03 {
 	 */
 	public static void main(String[] args) {
 
-		Set<Character> set = new TreeSet<>();	//字符的封装类
+		Set<Character> set = new LinkedHashSet<>();	//字符的封装类
 		Scanner sc = new Scanner(System.in);
 		System.out.println("请输入字符串:");
 		String str = sc.next();

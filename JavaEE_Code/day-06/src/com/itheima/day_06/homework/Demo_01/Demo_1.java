@@ -1,4 +1,4 @@
-package com.itheima.day_06.homework.Demo_01;
+package com.itheima.day_06.homework.demo_01;
 
 import java.util.Iterator;
 import java.util.LinkedHashSet;

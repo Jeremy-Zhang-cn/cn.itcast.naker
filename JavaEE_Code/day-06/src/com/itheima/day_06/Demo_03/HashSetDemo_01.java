@@ -1,4 +1,4 @@
-package com.itheima.day_06.Demo_03;
+package com.itheima.day_06.demo_03;
 
 import java.util.HashSet;
 import java.util.Random;

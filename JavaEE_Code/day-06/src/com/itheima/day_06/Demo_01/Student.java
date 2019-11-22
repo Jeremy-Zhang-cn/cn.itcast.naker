@@ -1,4 +1,4 @@
-package com.itheima.day_06.Demo_01;
+package com.itheima.day_06.demo_01;
 
 public class Student {
 

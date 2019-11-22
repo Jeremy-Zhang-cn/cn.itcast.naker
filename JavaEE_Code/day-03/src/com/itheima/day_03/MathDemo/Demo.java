@@ -1,6 +1,4 @@
-package com.itheima.day_03.MathDemo;
-
-import com.sun.security.jgss.GSSUtil;
+package com.itheima.day_03.mathDemo;
 
 public class Demo {
 

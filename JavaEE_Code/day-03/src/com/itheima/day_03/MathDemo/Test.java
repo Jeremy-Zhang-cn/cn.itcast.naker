@@ -1,4 +1,4 @@
-package com.itheima.day_03.MathDemo;
+package com.itheima.day_03.mathDemo;
 
 public class Test {
 

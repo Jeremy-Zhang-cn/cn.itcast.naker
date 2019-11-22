@@ -1,4 +1,4 @@
-package com.itheima.day_05.homework.Student;
+package com.itheima.day_05.homework.student;
 
 import java.util.ArrayList;
 import java.util.Iterator;

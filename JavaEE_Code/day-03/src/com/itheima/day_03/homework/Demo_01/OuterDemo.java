@@ -1,4 +1,4 @@
-package com.itheima.day_03.homework.Demo_01;
+package com.itheima.day_03.homework.demo_01;
 
 public class OuterDemo {
 

@@ -1,4 +1,4 @@
-package com.itheima.day_06.homework.Demo_04;
+package com.itheima.day_06.homework.demo_04;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package com.itheima.day_02.homework.Feeder;
+package com.itheima.day_02.homework.feeder;
 
 public class Dog extends Animal implements Swimming {
 

@@ -1,6 +1,4 @@
-package com.itheima.day_06.Demo_01;
-
-import com.itheima.day_06.Demo_01.Student;
+package com.itheima.day_06.demo_01;
 
 import java.util.LinkedHashSet;
 

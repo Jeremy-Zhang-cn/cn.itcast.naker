@@ -1,4 +1,4 @@
-package com.itheima.day_06.homework.Demo_05;
+package com.itheima.day_06.homework.demo_05;
 
 import java.util.*;
 
@@ -15,7 +15,7 @@ public class Demo_05 {
 
 		String[] str = {"12345","67891",
 				"12347809933","98765432102","67891","12347809933"};
-		Set<String> set = new HashSet<>();
+		Set<String> set = new LinkedHashSet<>();
 
 		Collections.addAll(set, str);
 		LinkedList<String> list = new LinkedList<>(set);
