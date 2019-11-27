@@ -21,7 +21,7 @@ public class PokerDemo {
 
 		String[] color = {"♥", "♦", "♣", "♠"};
 		String[] points = {"3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A", "2"};
-		String[] jokers = {"大王", "小王"};
+		String[] jokers = {"小王", "大王"};
 
 		ArrayList<String> cards = new ArrayList<>();
 

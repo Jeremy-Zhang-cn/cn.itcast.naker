@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExamDemo/ExamDemo.iml" filepath="$PROJECT_DIR$/ExamDemo/ExamDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/day-03/day-03.iml" filepath="$PROJECT_DIR$/day-03/day-03.iml" />
       <module fileurl="file://$PROJECT_DIR$/day-04/day-04.iml" filepath="$PROJECT_DIR$/day-04/day-04.iml" />
       <module fileurl="file://$PROJECT_DIR$/day-05/day-05.iml" filepath="$PROJECT_DIR$/day-05/day-05.iml" />
@@ -9,7 +10,6 @@
       <module fileurl="file://$PROJECT_DIR$/day-07/day-07.iml" filepath="$PROJECT_DIR$/day-07/day-07.iml" />
       <module fileurl="file://$PROJECT_DIR$/day-08/day-08.iml" filepath="$PROJECT_DIR$/day-08/day-08.iml" />
       <module fileurl="file://$PROJECT_DIR$/day-09/day-09.iml" filepath="$PROJECT_DIR$/day-09/day-09.iml" />
-      <module fileurl="file://$PROJECT_DIR$/examDemo/examDemo.iml" filepath="$PROJECT_DIR$/examDemo/examDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/examination/examination.iml" filepath="$PROJECT_DIR$/examination/examination.iml" />
       <module fileurl="file://$PROJECT_DIR$/methodPractice/methodPractice.iml" filepath="$PROJECT_DIR$/methodPractice/methodPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/practice_20191103/practice_20191103.iml" filepath="$PROJECT_DIR$/practice_20191103/practice_20191103.iml" />

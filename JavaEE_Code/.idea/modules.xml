@@ -10,6 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/day-06/day-06.iml" filepath="$PROJECT_DIR$/day-06/day-06.iml" />
       <module fileurl="file://$PROJECT_DIR$/day-07/day-07.iml" filepath="$PROJECT_DIR$/day-07/day-07.iml" />
       <module fileurl="file://$PROJECT_DIR$/day-08/day-08.iml" filepath="$PROJECT_DIR$/day-08/day-08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day-09/day-09.iml" filepath="$PROJECT_DIR$/day-09/day-09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day-10/day-10.iml" filepath="$PROJECT_DIR$/day-10/day-10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day-11/day-11.iml" filepath="$PROJECT_DIR$/day-11/day-11.iml" />
     </modules>
   </component>
 </project>

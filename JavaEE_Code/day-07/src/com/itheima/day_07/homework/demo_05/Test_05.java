@@ -2,6 +2,7 @@ package com.itheima.day_07.homework.demo_05;
 
 import java.util.HashMap;
 import java.util.Random;
+import java.util.Scanner;
 import java.util.Set;
 
 public class Test_05 {
@@ -21,14 +22,22 @@ public class Test_05 {
 
 
 		HashMap<Student, String> map = new HashMap<>();
+		Scanner sc = new Scanner(System.in);
 
-		Student student1 = new Student("张三", 17);
-		Student student2 = new Student("李四", 16);
-		Student student3 = new Student("王五", 20);
+		//录入学生信息
+		for (int i = 0; i < 3; i++) {
+			System.out.println("请输入第" + (i + 1) + "个学生的信息（格式：姓名，年龄）：");
+			String stuInfo = sc.nextLine();
 
-		map.put(student1, getDrink(student1));
-		map.put(student2, getDrink(student2));
-		map.put(student3, getDrink(student3));
+			String[] split = stuInfo.split("，");
+
+			String name = split[0];
+			int age = Integer.parseInt(split[1]);
+
+			Student student = new Student(name, age);
+			map.put(student, getDrink(student));
+
+		}
 
 		Set<Student> students = map.keySet();
 		for (Student student : students) {
@@ -39,17 +48,14 @@ public class Test_05 {
 
 	private static String getDrink(Student student) {
 
-		String[] str = {"橙汁","雪碧","啤酒","二锅头","可乐","红茶"};
+		String[] str = {"橙汁", "雪碧", "啤酒", "二锅头", "可乐", "红茶"};
 		Random rd = new Random();
 		String value = str[rd.nextInt(str.length)];
 
-		if (student.getAge() < 18) {
-			while ("二锅头".equals(value) || "啤酒".equals(value)) {
-				value = str[rd.nextInt(str.length)];
-			}
-			return value;
+		//根据年龄判断饮品是否符合要求
+		while (student.getAge() < 18 && ("二锅头".equals(value) || "啤酒".equals(value))) {
+			value = str[rd.nextInt(str.length)];
 		}
-
 		return value;
 	}
 
