@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="129aee07-1c28-4cc5-ab96-14232c832ca8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql_day04/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql_day04/mysql_day04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql_day04/src/com/itheima/mysql_day04/domain/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql_day04/src/com/itheima/mysql_day04/jdbc_demo_01/Demo_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql_day04/src/com/itheima/mysql_day04/jdbc_demo_02/Demo_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql_day04/src/com/itheima/mysql_day04/jdbc_demo_03/Demo_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql_day04/src/com/itheima/mysql_day04/jdbc_demo_04/Demo_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql_day04/src/com/itheima/mysql_day04/jdbc_demo_05/Demo_05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql_day04/src/com/itheima/mysql_day04/jdbc_demo_06/Demo_06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql_day04/src/com/itheima/mysql_day04/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql_day04/src/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-01/com/itheima/day_01/homework/phone/PhoneDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-01/com/itheima/day_01/homework/phone/PhoneDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-02/com/itheima/day_02/homework/Feeder/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-02/com/itheima/day_02/homework/Feeder/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-02/com/itheima/day_02/homework/Feeder/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-02/com/itheima/day_02/homework/Feeder/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-02/com/itheima/day_02/homework/Feeder/Feeder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-02/com/itheima/day_02/homework/Feeder/Feeder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-02/com/itheima/day_02/homework/Feeder/Frog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-02/com/itheima/day_02/homework/Feeder/Frog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-02/com/itheima/day_02/homework/Feeder/Sheep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-02/com/itheima/day_02/homework/Feeder/Sheep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-02/com/itheima/day_02/homework/Feeder/Swimming.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-02/com/itheima/day_02/homework/Feeder/Swimming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-02/com/itheima/day_02/homework/Feeder/TestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-02/com/itheima/day_02/homework/Feeder/TestDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/InnerClass/InnerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/InnerClass/InnerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/InnerClass/Outer$Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/InnerClass/Outer$Inner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/InnerClass/Outer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/InnerClass/Outer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/MathDemo/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/MathDemo/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/MathDemo/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/MathDemo/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_01/Inter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_01/Inter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_01/Outer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_01/Outer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_01/Outer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_01/Outer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_01/OuterDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_01/OuterDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_02/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_02/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_02/InterA.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_02/InterA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_02/Test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_02/Test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_02/Test$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_02/Test$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_02/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-03/com/itheima/day_03/homework/Demo_02/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-04/com/itheima/day_04/FebruaryDemo/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-04/com/itheima/day_04/FebruaryDemo/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-04/com/itheima/day_04/homework/Demo_03/Demo_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-04/com/itheima/day_04/homework/Demo_03/Demo_03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-05/com/itheima/day_05/Student/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-05/com/itheima/day_05/Student/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-05/com/itheima/day_05/Student/StudentDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-05/com/itheima/day_05/Student/StudentDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-05/com/itheima/day_05/homework/Demo_01/Demo_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-05/com/itheima/day_05/homework/Demo_01/Demo_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-05/com/itheima/day_05/homework/Demo_03/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-05/com/itheima/day_05/homework/Demo_03/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-05/com/itheima/day_05/homework/Demo_03/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-05/com/itheima/day_05/homework/Demo_03/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-05/com/itheima/day_05/homework/Student/CollectionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-05/com/itheima/day_05/homework/Student/CollectionDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-05/com/itheima/day_05/homework/Student/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-05/com/itheima/day_05/homework/Student/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-06/com/itheima/day_06/Demo_02/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-06/com/itheima/day_06/Demo_02/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-06/com/itheima/day_06/demo_08/Demo_08.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-06/com/itheima/day_06/demo_08/Demo_08.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-06/com/itheima/day_06/homework/Demo_03/SetDemo_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-06/com/itheima/day_06/homework/Demo_03/SetDemo_03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-06/com/itheima/day_06/homework/Demo_05/Demo_05.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-06/com/itheima/day_06/homework/Demo_05/Demo_05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-07/com/itheima/day_07/demo_07/Demo_07.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-07/com/itheima/day_07/demo_07/Demo_07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-07/com/itheima/day_07/demo_09/PokerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-07/com/itheima/day_07/demo_09/PokerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-08/com/itheima/day_08/demo_12/Demo_12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-08/com/itheima/day_08/demo_13/Demo_13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-08/com/itheima/day_08/demo_14/Demo_14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-08/com/itheima/day_08/demo_15/Demo_15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-08/com/itheima/day_08/demo_16/Demo_16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-08/com/itheima/day_08/homework/test_01/Test_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-08/com/itheima/day_08/homework/test_02/Test_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-09/com/itheima/day_09/homework/test_05/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-09/com/itheima/day_09/homework/test_05/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-09/com/itheima/day_09/homework/test_05/Test_05.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-09/com/itheima/day_09/homework/test_05/Test_05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-13/com/itheima/day_13/demo_06/PrinterDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE_Code/out/production/day-13/com/itheima/day_13/demo_06/PrinterDemo.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\files\GitPros\cn.itcast.naker\JavaWeb_section_01\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UhQ2bynMvj4hx1xJRUhNxl5caW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysql_day04/libs" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.mysql_day04.jdbc_demo_05" />
+      <recent name="com.itheima.mysql_day04.jdbc_demo_04" />
+      <recent name="com.itheima.mysql_day04.jdbc_demo_03" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\files\GitPros\cn.itcast.naker\JavaWeb_section_01\mysql_day04\libs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Demo_05">
+    <configuration name="Demo_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.mysql_day04.jdbc_demo_02.Demo_02" />
+      <module name="mysql_day04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.mysql_day04.jdbc_demo_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.mysql_day04.jdbc_demo_03.Demo_03" />
+      <module name="mysql_day04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.mysql_day04.jdbc_demo_03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.mysql_day04.jdbc_demo_04.Demo_04" />
+      <module name="mysql_day04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.mysql_day04.jdbc_demo_04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.mysql_day04.jdbc_demo_05.Demo_05" />
+      <module name="mysql_day04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.mysql_day04.jdbc_demo_05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.mysql_day04.jdbc_demo_06.Demo_06" />
+      <module name="mysql_day04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.mysql_day04.jdbc_demo_06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo_05" />
+        <item itemvalue="Application.Demo_06" />
+        <item itemvalue="Application.Demo_04" />
+        <item itemvalue="Application.Demo_03" />
+        <item itemvalue="Application.Demo_02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="129aee07-1c28-4cc5-ab96-14232c832ca8" name="Default Changelist" comment="" />
+      <created>1575806140097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575806140097</updated>
+      <workItem from="1575806143153" duration="736000" />
+      <workItem from="1575859730501" duration="1987000" />
+      <workItem from="1575869440679" duration="11920000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
