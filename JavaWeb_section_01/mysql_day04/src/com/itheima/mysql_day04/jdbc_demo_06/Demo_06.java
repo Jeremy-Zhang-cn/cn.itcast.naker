@@ -8,22 +8,28 @@ import java.util.ArrayList;
 
 public class Demo_06 {
 
+	/*
+		使用工具类简化查询操作
+	 */
 	public static void main(String[] args) {
 
 		ArrayList<Emp> list = new ArrayList<>();
-		Connection conn;
+		Connection conn = null;
 		Statement stmt = null;
 		ResultSet rs = null;
 
-		conn = JDBCUtils.getConnection();
 		try {
-
-			stmt = conn.createStatement();
+			//获取连接
+			conn = JDBCUtils.getConnection();
+			//定义sql语句
 			String sql = "select * from emp";
+			//获取sql语句执行对象
+			stmt = conn.createStatement();
+			//执行sql语句，获取结果集
 			rs = stmt.executeQuery(sql);
 			Emp emp;
-
-			while (rs.next()) {
+			//处理结果集
+			while (rs.next()) { //当rs游标下一个不为空时获取表中元素作为Emp对象的参数
 
 				emp = new Emp();
 

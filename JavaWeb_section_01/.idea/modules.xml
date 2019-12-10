@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mysql_day04/mysql_day04.iml" filepath="$PROJECT_DIR$/mysql_day04/mysql_day04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysql_day05/mysql_day05.iml" filepath="$PROJECT_DIR$/mysql_day05/mysql_day05.iml" />
     </modules>
   </component>
 </project>
