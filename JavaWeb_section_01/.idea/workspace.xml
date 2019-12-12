@@ -2,35 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="129aee07-1c28-4cc5-ab96-14232c832ca8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/druid_1_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day04/src/com/itheima/mysql_day04/jdbc_demo_07/Demo_07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day04/src/com/itheima/mysql_day04/jdbc_demo_08/Demo_08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/lib/c3p0-0.9.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/lib/druid-1.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/lib/mchange-commons-java-0.2.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/mysql_day05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/src/c3p0-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/c3p0_demo/C3P0Demo_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/domain/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/druid_demo/DruidDemo_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/druid_demo/DruidDemo_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/jdbcTemplate_demo/JdbcTemplate_Demo_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/jdbcTemplate_demo/JdbcTemplate_Demo_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/util/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_day05/src/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb_section_02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb_section_02/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb_section_02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql_day04/src/com/itheima/mysql_day04/jdbc_demo_06/Demo_06.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_day04/src/com/itheima/mysql_day04/jdbc_demo_06/Demo_06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql_day04/mysql_day04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_day04/mysql_day04.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql_day05/mysql_day05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_day05/mysql_day05.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/jdbcTemplate_demo/JdbcTemplate_Demo_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/jdbcTemplate_demo/JdbcTemplate_Demo_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/util/JDBCUtils.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,8 +61,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -91,9 +71,10 @@
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mysql_day05/lib" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -120,59 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JdbcTemplate_Demo_02">
-    <configuration name="C3P0Demo_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.mysql_day05.c3p0_demo.C3P0Demo_01" />
-      <module name="mysql_day05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.mysql_day05.c3p0_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DruidDemo_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.mysql_day05.druid_demo.DruidDemo_01" />
-      <module name="mysql_day05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.mysql_day05.druid_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DruidDemo_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.mysql_day05.druid_demo.DruidDemo_02" />
-      <module name="mysql_day05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.mysql_day05.druid_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdbcTemplate_Demo_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.mysql_day05.jdbcTemplate_demo.JdbcTemplate_Demo_01" />
-      <module name="mysql_day05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.mysql_day05.jdbcTemplate_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JdbcTemplate_Demo_02.test04">
     <configuration name="JdbcTemplate_Demo_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itheima.mysql_day05.jdbcTemplate_demo.JdbcTemplate_Demo_02" />
       <module name="mysql_day05" />
@@ -186,13 +115,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JdbcTemplate_Demo_02.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysql_day05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.mysql_day05.jdbcTemplate_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.mysql_day05.jdbcTemplate_demo" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.mysql_day05.jdbcTemplate_demo.JdbcTemplate_Demo_02" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplate_Demo_02.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysql_day05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.mysql_day05.jdbcTemplate_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.mysql_day05.jdbcTemplate_demo" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.mysql_day05.jdbcTemplate_demo.JdbcTemplate_Demo_02" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplate_Demo_02.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysql_day05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.mysql_day05.jdbcTemplate_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.mysql_day05.jdbcTemplate_demo" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.mysql_day05.jdbcTemplate_demo.JdbcTemplate_Demo_02" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplate_Demo_02.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mysql_day05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.mysql_day05.jdbcTemplate_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.mysql_day05.jdbcTemplate_demo" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.mysql_day05.jdbcTemplate_demo.JdbcTemplate_Demo_02" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JdbcTemplate_Demo_02.test04" />
+        <item itemvalue="JUnit.JdbcTemplate_Demo_02.test03" />
+        <item itemvalue="JUnit.JdbcTemplate_Demo_02.test01" />
+        <item itemvalue="JUnit.JdbcTemplate_Demo_02.test02" />
         <item itemvalue="Application.JdbcTemplate_Demo_02" />
-        <item itemvalue="Application.JdbcTemplate_Demo_01" />
-        <item itemvalue="Application.DruidDemo_02" />
-        <item itemvalue="Application.DruidDemo_01" />
-        <item itemvalue="Application.C3P0Demo_01" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +204,14 @@
       <workItem from="1575869440679" duration="12362000" />
       <workItem from="1575937964086" duration="6030000" />
       <workItem from="1575956063881" duration="8537000" />
-      <workItem from="1575972865317" duration="2847000" />
+      <workItem from="1575972865317" duration="5821000" />
+      <workItem from="1575982405685" duration="10000" />
+      <workItem from="1575982639584" duration="766000" />
+      <workItem from="1575986496543" duration="402000" />
+      <workItem from="1575986916865" duration="648000" />
+      <workItem from="1575987585344" duration="148000" />
+      <workItem from="1575987748940" duration="43000" />
+      <workItem from="1576024220840" duration="4790000" />
     </task>
     <task id="LOCAL-00001" summary="mysql_day04-JDBC基础应用">
       <created>1575897781819</created>
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575897781819</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mysql_day05-JDBC数据库连接池&amp;&amp;JdbcTemplate">
+      <created>1575976117177</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575976117177</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +248,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mysql_day04-JDBC基础应用" />
-    <option name="LAST_COMMIT_MESSAGE" value="mysql_day04-JDBC基础应用" />
+    <MESSAGE value="mysql_day05-JDBC数据库连接池&amp;&amp;JdbcTemplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysql_day05-JDBC数据库连接池&amp;&amp;JdbcTemplate" />
   </component>
 </project>

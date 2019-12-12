@@ -30,7 +30,7 @@ public class JDBCUtils {
 		}
 	}
 
-	//获取连接池对象
+	//返回连接池对象
 	public static DataSource getDatasource() {
 		return ds;
 	}
