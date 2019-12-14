@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/web_day06_html/web_day06_html.iml" filepath="$PROJECT_DIR$/web_day06_html/web_day06_html.iml" />
       <module fileurl="file://$PROJECT_DIR$/web_day07_html_css/web_day07_html_css.iml" filepath="$PROJECT_DIR$/web_day07_html_css/web_day07_html_css.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day08_javascript/web_day08_javascript.iml" filepath="$PROJECT_DIR$/web_day08_javascript/web_day08_javascript.iml" />
     </modules>
   </component>
 </project>

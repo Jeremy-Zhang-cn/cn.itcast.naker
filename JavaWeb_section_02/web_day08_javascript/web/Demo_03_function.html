@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>函数</title>
+</head>
+<body>
+
+    <script>
+        function f() {
+        	var sum = 0;
+			for (let i = 0; i < arguments.length; i++) {
+                sum += arguments[i];
+			}
+			return sum;
+		}
+
+		//function的调用值和方法的名称有关，和参数列表无关，无论传多少参数都不会错
+		document.write(f(1,2,3,4));
+        document.write("<hr>");
+
+        var arr = new Array(1,2,3);
+        var arr2 = new Array(3);
+        var arr3 = [4,5,6];
+
+        // push(): 向数组末尾添加一个或更多个元素，并返回新的数组长度
+
+        document.write(arr.join("-")+"<br>");
+        document.write(arr2.join("-")+"<br>");
+        document.write(arr3.push(7));
+
+        var date = new Date();
+        document.write(date + "<br>");
+        document.write(date.toLocaleDateString() + "<br>");
+        document.write(date.getTime() + "<br>");
+
+        var number = Math.ceil((Math.random())*100);
+        document.write(number);
+
+
+    </script>
+
+</body>
+</html>
