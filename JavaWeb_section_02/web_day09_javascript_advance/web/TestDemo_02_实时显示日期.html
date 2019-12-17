@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>课外练习题二_实时显示时间</title>
+</head>
+<body>
+
+    <div id="timeStamp">
+
+    </div>
+
+    <script>
+
+        var time = document.getElementById("timeStamp");
+
+        function show() {
+            var date = new Date();
+            var year = date.getFullYear();
+            var month = date.getMonth()+1;
+            var day = date.getDate();
+            var hours = date.getHours();
+            var minutes = date.getMinutes();
+            var seconds = date.getSeconds();
+
+            time.innerHTML="<p>"+year+"-"+month+"-"+day+" "
+                +hours+":"+minutes+":"+seconds+"</p>"
+        }
+
+        setInterval(show,1000);
+
+    </script>
+
+</body>
+</html>

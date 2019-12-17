@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>案例一_电灯开关</title>
+
+
+</head>
+<body>
+
+    <img src="image/off.gif" alt="" id="bulb_off">
+
+    <!--
+        <input type="button" id="open_btn" value="新建窗口">
+        <input type="button" id="close_btn" value="关闭窗口">
+    -->
+
+<!--    <h1 id="title">今晚月色很美</h1>-->
+
+    <script>
+
+		var bulb_off = document.getElementById("bulb_off");
+		var flag = false;
+
+		bulb_off.onclick = function () {
+			if (flag) {
+				bulb_off.src = "image/off.gif";
+				flag = false;
+			} else {
+				bulb_off.src="image/on.gif";
+				flag=true;
+			}
+		}
+
+		/*
+		* 正则表达式
+		var reg = /^1[356789]\d{9}$/;
+		var phoneNum = "13243090502";
+		alert(reg.test(phoneNum));
+        */
+
+       /*
+       * innerHTML改变标签内容
+       * innerText改变文本内容
+		var title = document.getElementById("title");
+		alert("切换");
+		title.innerHTML="<font color='red'>适合叉猹</font>";
+		title.innerText="<font color='red'>适合叉猹</font>";
+        */
+
+        /*
+		let newWindow;
+		document.getElementById("open_btn").onclick = function(){
+			newWindow = window.open();
+		}
+
+		document.getElementById("close_btn").onclick = function() {
+			newWindow.close();
+		}
+
+		function fun() {
+			alert("winter is coming");
+		}
+
+		const timeout = setTimeout(fun, 2000);  //设置一次性定时器
+		//clearTimeout(timeout);    //清除定时器
+		// setInterval(fun,2000);    //设置循环定时器
+        */
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>课外练习</title>
+</head>
+<body>
+
+    <div>
+
+        <div id="myLink">
+            <a id="link">超链接</a>
+        </div>
+
+       <div>
+           <label for="choice">请选择:</label>
+           <select name="choice" id="choice">
+               <option value="https://www.baidu.com">百度</option>
+               <option value="https://www.google.com">谷歌</option>
+               <option value="https://cn.bing.com">必应</option>
+           </select>
+       </div>
+
+        <div>
+            <input type="button" id="setAttr" value="设置属性">
+            <input type="button" id="delAttr" value="删除属性">
+        </div>
+
+    </div>
+
+    <script>
+
+        var setAttr = document.getElementById("setAttr");
+        var delAttr = document.getElementById("delAttr");
+        var myLink = document.getElementById("myLink");
+
+        var choice = document.getElementById("choice");
+
+		var index;
+		var href;
+		var name;
+
+		setAttr.onclick=function () {
+
+			index = choice.selectedIndex;
+            href = choice.options[index].value;
+            name = choice.options[index].innerText;
+
+            myLink.innerHTML="<a href='"+href+"'>"+name+"</a>"
+
+		}
+
+		delAttr.onclick=function () {
+            myLink.innerHTML="";
+		}
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web_day09_javascript_advance:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_day09_javascript_advance_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web_day09_javascript_advance/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web_day09_javascript_advance" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

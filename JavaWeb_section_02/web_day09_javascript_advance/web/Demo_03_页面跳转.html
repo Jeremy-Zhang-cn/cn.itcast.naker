@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>案例三_页面跳转</title>
+</head>
+<body>
+
+<p><span id="time">5</span>秒钟后，自动跳转</p>
+
+<script>
+
+    var time = document.getElementById("time");
+	var second = 5;
+
+    function showTime() {
+        second--;
+		if (second <= 0) {
+			location.href="Demo_02_轮播图.html";
+		}
+
+	//	time.innerHTML=second+"";
+		time.innerText=second+"";
+
+	}
+
+	setInterval(showTime,1000);
+
+</script>
+
+</body>
+</html>

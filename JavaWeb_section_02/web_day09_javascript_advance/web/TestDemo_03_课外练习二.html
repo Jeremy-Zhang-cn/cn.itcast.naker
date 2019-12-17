@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>课外练习二</title>
+</head>
+<body>
+    <a>超链接</a>
+    <br>
+    网址：<input type="text" id="address"> <br>
+    名称：<input type="text" id="name"> <br>
+    <input type="button" id="btn_set" value="设置属性">
+    <input type="button" id="btn_del" value="删除属性">
+
+    <script>
+        var btn_set = document.getElementById("btn_set");
+        btn_set.onclick=function () {
+        	//获取a标签
+            var element_a = document.getElementsByTagName("a")[0];
+            var address = document.getElementById("address").value;
+            var name = document.getElementById("name").value;
+            //设置属性
+            element_a.setAttribute("href",address);
+            element_a.innerHTML=name;
+		}
+
+		var btn_del = document.getElementById("btn_del");
+        btn_del.onclick=function () {
+            var element_a = document.getElementsByTagName("a")[0];
+            element_a.removeAttribute("href");
+            element_a.innerHTML="";
+		}
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Node</title>
+</head>
+<body>
+
+    <h1>城市列表</h1>
+    <label for="cityName">城市名称：</label>
+    <input type="text" id="cityName"><br>
+    <ul id="city">
+        <li>北京</li>
+        <li>上海</li>
+        <li>广州</li>
+    </ul>
+    <input type="button" id="btn" value="添加元素">
+
+    <script>
+
+        document.getElementById("btn").onclick=function () {
+
+        	//获取输入框中的内容
+			let text;
+			let city_li;
+			let cityName;
+			let city;
+			cityName = document.getElementById("cityName").value;
+			//创建<li>元素
+			city_li = document.createElement("li");
+			//创建文本节点对象，内容为从输入框中获取到的内容
+			text = document.createTextNode(cityName);
+			//将TextNode添加到<li>中
+			city_li.appendChild(text);
+
+			//获取<ul>对象
+			city = document.getElementById("city");
+            //将<li>添加到<ul>中
+            city.appendChild(city_li);
+		}
+
+    </script>
+
+</body>
+</html>
