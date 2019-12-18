@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/web_day07_html_css/web_day07_html_css.iml" filepath="$PROJECT_DIR$/web_day07_html_css/web_day07_html_css.iml" />
       <module fileurl="file://$PROJECT_DIR$/web_day08_javascript/web_day08_javascript.iml" filepath="$PROJECT_DIR$/web_day08_javascript/web_day08_javascript.iml" />
       <module fileurl="file://$PROJECT_DIR$/web_day09_javascript_advance/web_day09_javascript_advance.iml" filepath="$PROJECT_DIR$/web_day09_javascript_advance/web_day09_javascript_advance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day10_bootstrap/web_day10_bootstrap.iml" filepath="$PROJECT_DIR$/web_day10_bootstrap/web_day10_bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day11_xml/web_day11_xml.iml" filepath="$PROJECT_DIR$/web_day11_xml/web_day11_xml.iml" />
     </modules>
   </component>
 </project>

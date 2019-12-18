@@ -97,7 +97,7 @@
 
         //加载完成后判断每个输入框中的内容是否合法
         window.onload=function () {
-            document.getElementById("btn_sub").onclick=function () {
+            document.getElementById("form").onsubmit=function () {
                 return checkUsername()&&
                     checkPassword()&&
                     checkUsername()&&
@@ -233,7 +233,7 @@
 
         <div class="rg_center">
 
-            <form action="#;" method="get">
+            <form action="#;" method="get" id="form">
                 <table>
 
                     <tr>
