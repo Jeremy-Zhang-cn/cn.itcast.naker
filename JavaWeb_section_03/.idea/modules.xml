@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/web_day13_tomcat/web_day13_tomcat.iml" filepath="$PROJECT_DIR$/web_day13_tomcat/web_day13_tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day12_tomcat/web_day12_tomcat.iml" filepath="$PROJECT_DIR$/web_day12_tomcat/web_day12_tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day13_Servlet&amp;httpRequest/web_day13_Servlet&amp;httpRequest.iml" filepath="$PROJECT_DIR$/web_day13_Servlet&amp;httpRequest/web_day13_Servlet&amp;httpRequest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day13_test/web_day13_test.iml" filepath="$PROJECT_DIR$/web_day13_test/web_day13_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day14_response/web_day14_response.iml" filepath="$PROJECT_DIR$/web_day14_response/web_day14_response.iml" />
     </modules>
   </component>
 </project>
