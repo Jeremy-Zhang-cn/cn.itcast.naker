@@ -7,6 +7,13 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+<%--  配置虚拟路径需要在前边加上虚拟路径--%>
+  <form action="/web_day14/servletResponse_04">
+
+    <input type="file" name="filename" id="filename" value="选择文件"><br>
+    <input type="submit" value="提交">
+
+  </form>
+
   </body>
 </html>

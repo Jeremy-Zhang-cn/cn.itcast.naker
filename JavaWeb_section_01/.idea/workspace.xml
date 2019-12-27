@@ -2,15 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="129aee07-1c28-4cc5-ab96-14232c832ca8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaWeb_section_02/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb_section_02/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb_section_02/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/HTML/myForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/exam_1226_02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_1226_02/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_191226/exam_191226.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_191226/src/com/itheima/exam_1226/demo_01/Demo_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_191226/src/com/itheima/exam_1226/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_191226/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_191226/src/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_191226/src/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_191226/src/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_191226/src/lib/mchange-commons-java-0.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_191226/src/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_191226/src/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_191226/src/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_191226/src/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examinations/exam_191226/src/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql_day04/mysql_day04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_day04/mysql_day04.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql_day05/mysql_day05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_day05/mysql_day05.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/jdbcTemplate_demo/JdbcTemplate_Demo_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/jdbcTemplate_demo/JdbcTemplate_Demo_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_day05/src/com/itheima/mysql_day05/util/JDBCUtils.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +102,7 @@
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mysql_day05/lib" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -212,6 +243,9 @@
       <workItem from="1575987585344" duration="148000" />
       <workItem from="1575987748940" duration="43000" />
       <workItem from="1576024220840" duration="4790000" />
+      <workItem from="1577322698033" duration="1570000" />
+      <workItem from="1577338804464" duration="3206000" />
+      <workItem from="1577351120772" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="mysql_day04-JDBC基础应用">
       <created>1575897781819</created>

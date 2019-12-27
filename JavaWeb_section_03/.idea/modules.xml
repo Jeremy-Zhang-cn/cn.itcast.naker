@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/web_day13_Servlet&amp;httpRequest/web_day13_Servlet&amp;httpRequest.iml" filepath="$PROJECT_DIR$/web_day13_Servlet&amp;httpRequest/web_day13_Servlet&amp;httpRequest.iml" />
       <module fileurl="file://$PROJECT_DIR$/web_day13_test/web_day13_test.iml" filepath="$PROJECT_DIR$/web_day13_test/web_day13_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/web_day14_response/web_day14_response.iml" filepath="$PROJECT_DIR$/web_day14_response/web_day14_response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day15_cookie&amp;session/web_day15_cookie&amp;session.iml" filepath="$PROJECT_DIR$/web_day15_cookie&amp;session/web_day15_cookie&amp;session.iml" />
     </modules>
   </component>
 </project>

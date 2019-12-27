@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ea522f7-5830-4f7a-a888-b74e00c306da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/HTML/myForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/exam_1226_02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_1226_02/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_191226/exam_191226.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_191226/src/com/itheima/exam_1226/demo_01/Demo_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_191226/src/com/itheima/exam_1226/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_191226/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_191226/src/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_191226/src/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_191226/src/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_191226/src/lib/mchange-commons-java-0.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_191226/src/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_191226/src/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_191226/src/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_191226/src/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam_191226/src/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb_section_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb_section_01/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\files\GitPros\cn.itcast.naker\examinations\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VVcbTpGNgePyfM3njqccNMVFVh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exam_1226_02" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.exam_1226.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\files\GitPros\cn.itcast.naker\examinations\exam_1226_02" />
+      <recent name="D:\files\GitPros\cn.itcast.naker\examinations\exam_191226\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a8cd4faa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ea522f7-5830-4f7a-a888-b74e00c306da" name="Default Changelist" comment="" />
+      <created>1577341773374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577341773374</updated>
+      <workItem from="1577341776129" duration="4855000" />
+      <workItem from="1577351133246" duration="615000" />
+      <workItem from="1577407245350" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -25,15 +25,15 @@ public class LoginServlet extends HttpServlet {
 		*/
 
 		Map<String, String[]> map = request.getParameterMap();
-		User loginUser = new User();
+	//	User loginUser = new User();
 		User user = new User();
 		UserDao userDao = new UserDao();
 
 		try {
 			//使用BeanUtils工具类将map封装为对应User对象
-			BeanUtils.populate(loginUser,map);
+			BeanUtils.populate(user,map);
 			//使用Dao判断用户是否存在
-			user = userDao.login(loginUser);
+			user = userDao.login(user);
 		} catch (IllegalAccessException | InvocationTargetException e) {
 			e.printStackTrace();
 		}
