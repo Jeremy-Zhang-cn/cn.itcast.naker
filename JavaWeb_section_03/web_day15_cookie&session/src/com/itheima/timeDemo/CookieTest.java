@@ -1,4 +1,4 @@
-package com.itheima.TimeDemo;
+package com.itheima.timeDemo;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
@@ -31,7 +31,7 @@ public class CookieTest extends HttpServlet {
 
 				if ("lastTime".equals(cookie.getName())) {
 
-					flag = true;	//如果cookie中存在有lastTime，将标志置为true
+					flag = true;    //如果cookie中存在有lastTime，将标志置为true
 					String value = cookie.getValue();  //获取lastTime对应的value
 
 					//使用utf-8编码格式进行解码
@@ -46,7 +46,7 @@ public class CookieTest extends HttpServlet {
 					String encode_time = URLEncoder.encode(format_time, "utf-8");
 					cookie.setValue(encode_time);
 					//设置cookie生存时间
-					cookie.setMaxAge(60*60*24*7);
+					cookie.setMaxAge(60 * 60 * 24 * 7);
 					//添加cookie
 					response.addCookie(cookie);
 					break;
@@ -54,15 +54,15 @@ public class CookieTest extends HttpServlet {
 			}
 		}
 
-		if (cookies == null || cookies.length == 0 || !flag){	//通过cookie中是否有内容判断是否为初次访问
+		if (cookies == null || cookies.length == 0 || !flag) {    //通过cookie中是否有内容判断是否为初次访问
 			response.getWriter().write("您好，欢迎您首次访问");
 			Date date = new Date();
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
 			String format_time = sdf.format(date);
 			//编码
 			String encode_time = URLEncoder.encode(format_time, "utf-8");
-			Cookie c = new Cookie("lastTime",encode_time);
-			c.setMaxAge(60*60*24*7);
+			Cookie c = new Cookie("lastTime", encode_time);
+			c.setMaxAge(60 * 60 * 24 * 7);
 			response.addCookie(c);
 		}
 
