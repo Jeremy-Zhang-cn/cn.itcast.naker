@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="web_day16_EL&amp;JSTL:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_day16_EL_JSTL_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web_day16_EL&amp;JSTL" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web_day16_EL&amp;JSTL/web/WEB-INF/lib/jstl-impl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web_day16_EL&amp;JSTL/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="web_day16_EL&amp;JSTL/web/Web" />
+    </root>
+  </artifact>
+</component>

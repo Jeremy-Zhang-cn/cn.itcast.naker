@@ -7,6 +7,17 @@
         <element id="directory" name="classes">
           <element id="module-output" name="web_day15_cookie&amp;session" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web_day15_cookie&amp;session/web/WEB-INF/lib/druid-1.0.9.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web_day15_cookie&amp;session/web/WEB-INF/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web_day15_cookie&amp;session/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web_day15_cookie&amp;session/web/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web_day15_cookie&amp;session/web/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web_day15_cookie&amp;session/web/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web_day15_cookie&amp;session/web/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web_day15_cookie&amp;session/web/WEB-INF/lib/mchange-commons-java-0.2.12.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web_day15_cookie&amp;session/web/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" />
+        </element>
       </element>
     </root>
   </artifact>
