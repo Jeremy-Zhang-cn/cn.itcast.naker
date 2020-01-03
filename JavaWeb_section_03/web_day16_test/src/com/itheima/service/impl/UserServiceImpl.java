@@ -1,10 +1,12 @@
 package com.itheima.service.impl;
 
 import com.itheima.dao.impl.UserDaoImpl;
+import com.itheima.domain.PageBean;
 import com.itheima.domain.User;
 import com.itheima.service.UserService;
 
 import java.util.List;
+import java.util.Map;
 
 public class UserServiceImpl implements UserService {
 
@@ -58,5 +60,10 @@ public class UserServiceImpl implements UserService {
 			int id = Integer.parseInt(cb);
 			userDao.delSelectedUser(id);
 		}
+	}
+
+	@Override
+	public PageBean<User> findUserByPage(String currentPage, String rows, Map<String, String[]> condition) {
+		return new UserDaoImpl().findUserByPage(currentPage, rows, condition);
 	}
 }

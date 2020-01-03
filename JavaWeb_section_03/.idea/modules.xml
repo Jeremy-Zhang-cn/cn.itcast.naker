@@ -9,7 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/web_day15_cookie&amp;session/web_day15_cookie&amp;session.iml" filepath="$PROJECT_DIR$/web_day15_cookie&amp;session/web_day15_cookie&amp;session.iml" />
       <module fileurl="file://$PROJECT_DIR$/web_day16_EL&amp;JSTL/web_day16_EL&amp;JSTL.iml" filepath="$PROJECT_DIR$/web_day16_EL&amp;JSTL/web_day16_EL&amp;JSTL.iml" />
       <module fileurl="file://$PROJECT_DIR$/web_day16_test/web_day16_test.iml" filepath="$PROJECT_DIR$/web_day16_test/web_day16_test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web_day17_filter&amp;listenner/web_day17_filter&amp;listenner.iml" filepath="$PROJECT_DIR$/web_day17_filter&amp;listenner/web_day17_filter&amp;listenner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day17_filter&amp;listener/web_day17_filter&amp;listener.iml" filepath="$PROJECT_DIR$/web_day17_filter&amp;listener/web_day17_filter&amp;listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day18_JQuery_basic/web_day18_JQuery_basic.iml" filepath="$PROJECT_DIR$/web_day18_JQuery_basic/web_day18_JQuery_basic.iml" />
     </modules>
   </component>
 </project>

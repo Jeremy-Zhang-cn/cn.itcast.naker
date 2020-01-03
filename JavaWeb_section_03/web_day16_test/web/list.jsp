@@ -35,24 +35,24 @@
 	<script>
 		function deleteUser(id) {
 
-			if (confirm("确认删除？")){
-				location.href="${pageContext.request.contextPath}/delSingleUserServlet?id="+id;
+			if (confirm("确认删除？")) {
+				location.href = "${pageContext.request.contextPath}/delSingleUserServlet?id=" + id;
 			}
 		}
 
 		window.onload = function () {
 
 			//绑定删除按钮单击事件
-			document.getElementById("deleteSelected").onclick=function () {
+			document.getElementById("deleteSelected").onclick = function () {
 
-				if (confirm("确定删除？")){
+				if (confirm("确定删除？")) {
 					//表单提交
 					document.getElementById("myForm").submit();
 				}
 			}
 
 			//获取全选复选框
-			document.getElementById("first_cb").onclick=function () {
+			document.getElementById("first_cb").onclick = function () {
 				//获取表中所有cb
 				var cbs = document.getElementsByName("cb");
 
@@ -79,21 +79,24 @@
 
 	<div style="float: left; margin: 5px">
 
-		<form class="form-inline">
+		<form class="form-inline" action="${pageContext.request.contextPath}/findUserByPageServlet" method="post">
 
 			<div class="form-group">
 				<label for="example_1">姓名</label>
-				<input type="text" class="form-control" id="example_1">
+				<input type="text" name="name" value="${requestScope.condition.name[0]}" class="form-control"
+				       id="example_1">
 			</div>
 
 			<div class="form-group">
 				<label for="example_2">籍贯</label>
-				<input type="text" class="form-control" id="example_2">
+				<input type="text" name="address" value="${requestScope.condition.address[0]}" class="form-control"
+				       id="example_2">
 			</div>
 
 			<div class="form-group">
 				<label for="example_3">邮箱</label>
-				<input type="text" class="form-control" id="example_3">
+				<input type="text" name="email" value="${requestScope.condition.email[0]}" class="form-control"
+				       id="example_3">
 			</div>
 
 			<button type="submit" class="btn btn-default">查询</button>
@@ -117,7 +120,7 @@
 				<th>操作</th>
 			</tr>
 
-			<c:forEach items="${requestScope.users}" var="user" varStatus="s">
+			<c:forEach items="${requestScope.pb.list}" var="user" varStatus="s">
 				<tr>
 					<td><input type="checkbox" id="cb" name="cb" value="${user.id}"></td>
 					<td>${s.count}</td>
@@ -127,7 +130,8 @@
 					<td>${user.address}</td>
 					<td>${user.qq}</td>
 					<td>${user.email}</td>
-					<td><a class="btn btn-default btn-sm" href="${pageContext.request.contextPath}/findUserServlet?id=${user.id}">修改</a>&nbsp;
+					<td><a class="btn btn-default btn-sm"
+					       href="${pageContext.request.contextPath}/findUserServlet?id=${user.id}">修改</a>&nbsp;
 						<a class="btn btn-default btn-sm" href="javascript:deleteUser(${user.id});">删除</a></td>
 				</tr>
 			</c:forEach>
@@ -138,23 +142,51 @@
 
 		<nav aria-label="Page navigation">
 			<ul class="pagination">
+
+				<c:if test="${requestScope.pb.currentPage == 1}">
+				<li class="disabled">
+					</c:if>
+
+					<c:if test="${requestScope.pb.currentPage != 1}">
 				<li>
-					<a href="#" aria-label="Previous">
+					</c:if>
+
+					<a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${requestScope.pb.currentPage-1}&rows=5&name=${requestScope.condition.name[0]}&address=${requestScope.condition.address[0]}&email=${requestScope.condition.email[0]}"
+					   aria-label="Previous">
 						<span aria-hidden="true">&laquo;</span>
 					</a>
 				</li>
-				<li><a href="#">1</a></li>
-				<li><a href="#">2</a></li>
-				<li><a href="#">3</a></li>
-				<li><a href="#">4</a></li>
-				<li><a href="#">5</a></li>
+
+				<c:forEach begin="1" end="${requestScope.pb.totalPage}" var="i">
+
+					<c:if test="${requestScope.pb.currentPage == i}">
+						<li class="active">
+							<a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5&name=${requestScope.condition.name[0]}&address=${requestScope.condition.address[0]}&email=${requestScope.condition.email[0]}">${i}</a>
+						</li>
+					</c:if>
+
+					<c:if test="${requestScope.pb.currentPage != i}">
+						<li>
+							<a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5&name=${requestScope.condition.name[0]}&address=${requestScope.condition.address[0]}&email=${requestScope.condition.email[0]}">${i}</a>
+						</li>
+					</c:if>
+
+				</c:forEach>
+
+				<c:if test="${requestScope.pb.currentPage == requestScope.pb.totalPage}">
+				<li class="disabled">
+					</c:if>
+					<c:if test="${requestScope.pb.currentPage != requestScope.pb.totalPage}">
 				<li>
-					<a href="#" aria-label="Next">
+					</c:if>
+
+					<a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${requestScope.pb.currentPage+1}&rows=5&name=${requestScope.condition.name[0]}&address=${requestScope.condition.address[0]}&email=${requestScope.condition.email[0]}"
+					   aria-label="Next">
 						<span aria-hidden="true">&raquo;</span>
 					</a>
 				</li>
 				<span style="font-size: 25px;margin-left: 5px;">
-                    共16条记录，共4页
+                    共${requestScope.pb.totalCount}条记录，共${requestScope.pb.totalPage}页
                 </span>
 
 			</ul>

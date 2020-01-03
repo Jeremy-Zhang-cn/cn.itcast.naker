@@ -6,10 +6,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import java.io.*;
 import java.lang.reflect.Proxy;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 @WebFilter("/*")
 public class SensitiveWordsFilter implements Filter {
@@ -49,21 +46,27 @@ public class SensitiveWordsFilter implements Filter {
 
 						Map<String, String[]> map = (Map<String, String[]>)method.invoke(req, args);
 
+						//新建Map，用于存储改变后的数据
+						Map<String, String[]> paraMap = new HashMap<>();
+
 						Set<Map.Entry<String, String[]>> entries = map.entrySet();
 
 						for (Map.Entry<String, String[]> entry : entries) {
 
 							String[] values = entry.getValue();
 
+							//转存map
+							paraMap.put(entry.getKey(), values);
+
 							for (String s : list) {
-								for (String value : values) {
-									if (value.contains(s)) {
-										value = value.replaceAll(s, "***");
-									}
+								if (values[0].contains(s)) {
+									values[0] = values[0].replaceAll(s,"***");
+									//put
+									paraMap.put(entry.getKey(),values);
 								}
 							}
 						}
-						return map;
+						return paraMap;
 
 					}
 

@@ -45,7 +45,7 @@ public class UserAddServlet extends HttpServlet {
 		service.addUser(user);
 
 		//跳转至list页面
-		response.sendRedirect("userListServlet");
+		response.sendRedirect("findUserByPageServlet");
 
 	}
 

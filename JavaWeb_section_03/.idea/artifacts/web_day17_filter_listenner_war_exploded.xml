@@ -4,10 +4,10 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="web_day17_filter&amp;listenner" />
+          <element id="module-output" name="web_day17_filter&amp;listener" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="web_day17_filter&amp;listenner/web/Web" />
+      <element id="javaee-facet-resources" facet="web_day17_filter&amp;listener/web/Web" />
     </root>
   </artifact>
 </component>

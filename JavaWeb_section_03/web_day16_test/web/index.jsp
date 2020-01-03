@@ -23,7 +23,7 @@
 <body>
 <div align="center">
 	<p>${requestScope.username}，欢迎您</p>
-	<a href="${pageContext.request.contextPath}/userListServlet" style="text-decoration:none;font-size:33px">
+	<a href="${pageContext.request.contextPath}/findUserByPageServlet" style="text-decoration:none;font-size:33px">
 		查询所有用户信息
 	</a>
 </div>

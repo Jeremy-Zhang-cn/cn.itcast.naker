@@ -1,8 +1,10 @@
 package com.itheima.service;
 
+import com.itheima.domain.PageBean;
 import com.itheima.domain.User;
 
 import java.util.List;
+import java.util.Map;
 
 public interface UserService {
 
@@ -20,4 +22,8 @@ public interface UserService {
 
 	//批量删除
 	void delSelectedUser(String[] cbs);
+
+	//分页查询
+	PageBean<User> findUserByPage(String currentPage, String rows, Map<String, String[]> condition);
+
 }
