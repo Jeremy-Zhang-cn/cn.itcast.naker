@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+
+       $(function () {
+           var cities = $("#city li");
+           cities.each(function (index, element) {
+             //  alert($(this).html());
+             //  alert(index + ":" + $(element).html());
+
+               if ("上海" == $(element).html()) {
+                   //如果当前function返回为false，则结束循环（break）
+                   //如果当前function返回为true，则跳过本次循环，继续下次循环（continue）
+                   return true;
+
+               }
+               alert(index + ":" + $(element).html());
+
+           });
+
+           //for .. of : JQuery3.0版本之后提供的方式
+        /*   for (li of cities) {
+               alert($(li).html());
+           }
+           */
+       /*
+       $.each(cities,function () {
+            alert($(this).html());
+        });
+        */
+
+       });
+
+    </script>
+</head>
+<body>
+<ul id="city">
+    <li>北京</li>
+    <li>上海</li>
+    <li>天津</li>
+    <li>重庆</li>
+</ul>
+</body>
+</html>

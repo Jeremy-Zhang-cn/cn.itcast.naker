@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/web_day16_test/web_day16_test.iml" filepath="$PROJECT_DIR$/web_day16_test/web_day16_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/web_day17_filter&amp;listener/web_day17_filter&amp;listener.iml" filepath="$PROJECT_DIR$/web_day17_filter&amp;listener/web_day17_filter&amp;listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/web_day18_JQuery_basic/web_day18_JQuery_basic.iml" filepath="$PROJECT_DIR$/web_day18_JQuery_basic/web_day18_JQuery_basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day19_JQuery_advanced/web_day19_JQuery_advanced.iml" filepath="$PROJECT_DIR$/web_day19_JQuery_advanced/web_day19_JQuery_advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day_20_Ajax&amp;Json/web_day_20_Ajax&amp;Json.iml" filepath="$PROJECT_DIR$/web_day_20_Ajax&amp;Json/web_day_20_Ajax&amp;Json.iml" />
     </modules>
   </component>
 </project>
