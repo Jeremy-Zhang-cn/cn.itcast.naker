@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/web_day18_JQuery_basic/web_day18_JQuery_basic.iml" filepath="$PROJECT_DIR$/web_day18_JQuery_basic/web_day18_JQuery_basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/web_day19_JQuery_advanced/web_day19_JQuery_advanced.iml" filepath="$PROJECT_DIR$/web_day19_JQuery_advanced/web_day19_JQuery_advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/web_day_20_Ajax&amp;Json/web_day_20_Ajax&amp;Json.iml" filepath="$PROJECT_DIR$/web_day_20_Ajax&amp;Json/web_day_20_Ajax&amp;Json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_day_21_Redis/web_day_21_Redis.iml" filepath="$PROJECT_DIR$/web_day_21_Redis/web_day_21_Redis.iml" />
     </modules>
   </component>
 </project>
