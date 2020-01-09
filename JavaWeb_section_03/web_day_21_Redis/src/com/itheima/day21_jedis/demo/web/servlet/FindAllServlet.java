@@ -1,7 +1,5 @@
 package com.itheima.day21_jedis.demo.web.servlet;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.itheima.day21_jedis.demo.domain.Province;
 import com.itheima.day21_jedis.demo.service.impl.UserServiceImpl;
 
 import javax.servlet.ServletException;
@@ -10,7 +8,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.List;
 
 @WebServlet("/findAllServlet")
 public class FindAllServlet extends HttpServlet {
