@@ -7,6 +7,7 @@
 	<groupId>com.itheima</groupId>
 	<artifactId>web_day22_maven_base</artifactId>
 	<version>1.0-SNAPSHOT</version>
+	<packaging>war</packaging>
 
 	<dependencies>
 
@@ -16,6 +17,36 @@
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>
+
 	</dependencies>
+
+	<build>
+		<plugins>
+
+			<plugin>
+				<!--jdk编译插件-->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>utf-8</encoding>
+				</configuration>
+			</plugin>
+
+			<plugin>
+			<!--tomcat7插件-->
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.1</version>
+				<configuration>
+				<!--配置项目访问路径为localhost:8080/web_day22-->
+					<port>8080</port>
+					<path>/web_day22</path>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
 
 </project>

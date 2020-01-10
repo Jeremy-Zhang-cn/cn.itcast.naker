@@ -6,8 +6,13 @@ D:\files\GitPros\cn.itcast.naker\JavaWeb_section_04\travel\src\main\java\cn\itca
 D:\files\GitPros\cn.itcast.naker\JavaWeb_section_04\travel\src\main\java\cn\itcast\travel\util\UuidUtil.java
 D:\files\GitPros\cn.itcast.naker\JavaWeb_section_04\travel\src\main\java\cn\itcast\travel\web\servlet\CheckCodeServlet.java
 D:\files\GitPros\cn.itcast.naker\JavaWeb_section_04\travel\src\main\java\cn\itcast\travel\util\JedisUtil.java
+D:\files\GitPros\cn.itcast.naker\JavaWeb_section_04\travel\src\main\java\cn\itcast\travel\web\servlet\RegisterServlet.java
+D:\files\GitPros\cn.itcast.naker\JavaWeb_section_04\travel\src\main\java\cn\itcast\travel\service\UserService.java
 D:\files\GitPros\cn.itcast.naker\JavaWeb_section_04\travel\src\main\java\cn\itcast\travel\util\Md5Util.java
+D:\files\GitPros\cn.itcast.naker\JavaWeb_section_04\travel\src\main\java\cn\itcast\travel\dao\UserDao.java
 D:\files\GitPros\cn.itcast.naker\JavaWeb_section_04\travel\src\main\java\cn\itcast\travel\domain\ResultInfo.java
+D:\files\GitPros\cn.itcast.naker\JavaWeb_section_04\travel\src\main\java\cn\itcast\travel\dao\impl\UserDaoImpl.java
 D:\files\GitPros\cn.itcast.naker\JavaWeb_section_04\travel\src\main\java\cn\itcast\travel\domain\RouteImg.java
+D:\files\GitPros\cn.itcast.naker\JavaWeb_section_04\travel\src\main\java\cn\itcast\travel\service\impl\UserServiceImpl.java
 D:\files\GitPros\cn.itcast.naker\JavaWeb_section_04\travel\src\main\java\cn\itcast\travel\util\MailUtils.java
 D:\files\GitPros\cn.itcast.naker\JavaWeb_section_04\travel\src\main\java\cn\itcast\travel\domain\Route.java

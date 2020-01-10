@@ -72,7 +72,7 @@ create table tab_route_img
 create table tab_seller
 (
    sid                  int not null auto_increment,
-   sname                varchar(200) not null,
+   sname                varchar(32) not null,
    consphone            varchar(20) not null,
    address              varchar(200),
    primary key (sid),
