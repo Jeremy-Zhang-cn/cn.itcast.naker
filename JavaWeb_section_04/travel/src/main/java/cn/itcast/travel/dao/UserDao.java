@@ -7,4 +7,10 @@ public interface UserDao {
 	User findByUsername(String username);
 
 	void save(User user);
+
+	User findByUsernameAndPassword(String username, String password);
+
+	User findByCode(String code);
+
+	void updateStatus(User user);
 }

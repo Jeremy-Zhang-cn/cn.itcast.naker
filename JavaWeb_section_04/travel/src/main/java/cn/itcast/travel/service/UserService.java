@@ -7,4 +7,7 @@ public interface UserService {
 	boolean regist(User user);
 
 
+	User login(User user);
+
+	boolean active(String code);
 }

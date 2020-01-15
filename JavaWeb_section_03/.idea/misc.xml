@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/java_web_exam_03" />
     <file type="web" url="file://$PROJECT_DIR$/web_day22_maven_base" />
   </component>
   <component name="JavaScriptSettings">
@@ -10,6 +11,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/web_day22_maven_base/pom.xml" />
+        <option value="$PROJECT_DIR$/java_web_exam_03/pom.xml" />
       </list>
     </option>
   </component>

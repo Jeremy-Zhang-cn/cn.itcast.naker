@@ -170,7 +170,7 @@
 				//发送数据到服务器
 				if (checkUsername() && checkPassword() && checkEmail() && checkName() && checkTel() && checkBirthday()) {
 					//校验通过，发送ajax请求，提交表单的数据
-					$.post("registerServlet",
+					$.post("user/regist",
 					$("#registerForm").serialize(),
 					function (data) {
 						if (data.flag) {

@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="web_day22_maven_base" />
+        <module name="java_web_exam_03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="base_maven" target="1.8" />
+      <module name="java_web_exam_03" target="1.8" />
       <module name="mave_test" target="1.5" />
       <module name="web_day22_maven_base" target="1.8" />
     </bytecodeTargetLevel>
