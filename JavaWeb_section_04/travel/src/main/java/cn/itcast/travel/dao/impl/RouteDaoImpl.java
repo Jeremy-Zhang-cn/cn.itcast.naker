@@ -60,17 +60,28 @@ public class RouteDaoImpl implements RouteDao {
 			params.add("%" + rname + "%");
 		}
 
-		sb.append(" limit ?, ?"); 	//分页条件
+		sb.append(" limit ?,? "); 	//分页条件
+
+
+		sql = sb.toString();
 
 		params.add(start);
 		params.add(pageSize);
-
-		sql = sb.toString();
 
 		return template.query(sql,
 				new BeanPropertyRowMapper<>(Route.class),
 				params.toArray());
 
+	}
+
+	@Override
+	public Route findOne(int rid) {
+
+		String sql = " select * from tab_route where rid = ?";
+
+		return template.queryForObject(sql,
+				new BeanPropertyRowMapper<>(Route.class),
+				rid);
 	}
 
 
