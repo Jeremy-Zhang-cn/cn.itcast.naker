@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring_day_01/spring_day_01.iml" filepath="$PROJECT_DIR$/spring_day_01/spring_day_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_day_02/spring_day_02.iml" filepath="$PROJECT_DIR$/spring_day_02/spring_day_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_day_03/spring_day_03.iml" filepath="$PROJECT_DIR$/spring_day_03/spring_day_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_day_04/spring_day_04.iml" filepath="$PROJECT_DIR$/spring_day_04/spring_day_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_day_04_anno/spring_day_04_anno.iml" filepath="$PROJECT_DIR$/spring_day_04_anno/spring_day_04_anno.iml" />
     </modules>
   </component>
 </project>

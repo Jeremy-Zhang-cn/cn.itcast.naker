@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<context:component-scan base-package="com.itheima"/>
+
+	<bean id="my" class="com.itheima.advice.MyAdvice"/>
+
+
+
+	<!-- 配置：在执行AccountDao中的add方法之前，先执行MyAdvice中的checkUser()方法 -->
+
+	<aop:config>
+
+		<aop:aspect ref="my">
+
+			<!-- 切点表达式的抽取 -->
+			<aop:pointcut id="myPointcut" expression="execution(* com.itheima.dao.impl.*.add*(..))"/>
+
+			<!--
+				before: 放在前边
+				method: 放什么
+				pointcut: 放在哪个方法里
+			-->
+<!--
+
+			&lt;!&ndash;前置通知&ndash;&gt;
+			<aop:before method="checkUser" pointcut="execution(public void com.itheima.dao.impl.AccountDaoImpl.add())"/>
+			<aop:before method="checkUser" pointcut="execution(public void com.itheima.dao.impl.AccountDaoImpl.del())"/>
+			<aop:before method="checkUser" pointcut="execution(public void com.itheima.dao.impl.AccountDaoImpl.upd())"/>
+			<aop:before method="checkUser" pointcut="execution(public void com.itheima.dao.impl.AccountDaoImpl.find())"/>
+-->
+
+			<!-- 环绕通知 -->
+<!--			<aop:around method="surround" pointcut="execution(* com.itheima.dao.*impl.*.add*(..))"/>-->
+			<aop:around method="surround" pointcut-ref="myPointcut"/>
+
+		</aop:aspect>
+
+	</aop:config>
+
+</beans>

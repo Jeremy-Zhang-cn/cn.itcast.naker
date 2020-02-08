@@ -8,4 +8,5 @@ public interface AccountDao {
 
 	List<Account> findAll();
 
+	void add();
 }

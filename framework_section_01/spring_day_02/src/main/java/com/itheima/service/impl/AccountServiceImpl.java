@@ -30,4 +30,8 @@ public class AccountServiceImpl implements AccountService {
 
 	}
 
+	public void add() {
+		accountDao.add();
+	}
+
 }

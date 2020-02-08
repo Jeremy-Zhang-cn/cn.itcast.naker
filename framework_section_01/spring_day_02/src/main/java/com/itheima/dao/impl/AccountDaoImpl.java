@@ -36,4 +36,8 @@ public class AccountDaoImpl implements AccountDao {
 
 	}
 
+	@Override
+	public void add() {
+		System.out.println("test add...");
+	}
 }

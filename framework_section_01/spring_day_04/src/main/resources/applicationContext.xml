@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+	<!-- 扫描包 -->
+	<context:component-scan base-package="com.itheima"/>
+
+	<!-- 加载外部properties文件 -->
+	<context:property-placeholder location="classpath:jdbc.properties"/>
+
+	<!-- druid连接池 -->
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+		<property name="driverClassName" value="${jdbc.driver}"/>
+		<property name="url" value="${jdbc.url}"/>
+		<property name="username" value="${jdbc.username}"/>
+		<property name="password" value="${jdbc.password}"/>
+	</bean>
+
+	<!-- JdbcTemplate -->
+	<bean class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+
+	<!-- 配置事务管理类 -->
+	<bean id="transactionManager"
+	      class= "org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+
+	<!-- 增强配置 -->
+	<aop:config>
+
+		<aop:advisor advice-ref="myAdvice" pointcut="execution(* com.itheima.service.*impl.*.transfer(..))"/>
+
+	</aop:config>
+
+	<!-- 配置事务属性 -->
+	<tx:advice id="myAdvice">
+		<tx:attributes>
+
+			<tx:method name="transfer" propagation="REQUIRED" read-only="false"/>
+
+		</tx:attributes>
+	</tx:advice>
+
+</beans>
