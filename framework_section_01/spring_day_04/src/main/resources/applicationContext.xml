@@ -48,11 +48,13 @@
 
 	<!-- 配置事务属性 -->
 	<tx:advice id="myAdvice">
+
 		<tx:attributes>
 
-			<tx:method name="transfer" propagation="REQUIRED" read-only="false"/>
+			<tx:method name="transfer" propagation="REQUIRED" timeout="-1" read-only="false"/>
 
 		</tx:attributes>
+
 	</tx:advice>
 
 </beans>
