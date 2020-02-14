@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/springMVC_day_02/springMVC_day_02.iml" filepath="$PROJECT_DIR$/springMVC_day_02/springMVC_day_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/springMVC_day_03/springMVC_day_03.iml" filepath="$PROJECT_DIR$/springMVC_day_03/springMVC_day_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/springMVC_day_03_login/springMVC_day_03_login.iml" filepath="$PROJECT_DIR$/springMVC_day_03_login/springMVC_day_03_login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_springMVC_test/spring_springMVC_test.iml" filepath="$PROJECT_DIR$/spring_springMVC_test/spring_springMVC_test.iml" />
     </modules>
   </component>
 </project>
