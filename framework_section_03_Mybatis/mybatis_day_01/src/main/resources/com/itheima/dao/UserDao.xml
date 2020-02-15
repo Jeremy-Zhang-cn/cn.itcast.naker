@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 用于存储sql语句 -->
+<mapper namespace="com.itheima.dao.UserDao">
+
+	<select id="findAll" resultType="user">
+		select  * from User;
+	</select>
+
+	<select id="findByName" resultType="user" parameterType="String">
+		select * from user where name = #{name}
+	</select>
+
+	<insert id="add" parameterType="user">
+		insert into User values (#{id},#{name},#{age},#{gender})
+	</insert>
+
+	<update id="updateById" parameterType="user">
+		update user set name=#{name},age=#{age},gender=#{gender} where id=#{id}
+	</update>
+
+	<delete id="deleteById" parameterType="int">
+		delete from User where id = #{id}
+	</delete>
+
+</mapper>
