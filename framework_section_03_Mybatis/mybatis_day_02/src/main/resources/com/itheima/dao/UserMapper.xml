@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.itheima.dao.UserMapper">
+
+	<insert id="add" parameterType="user">
+		insert into user values (#{id}, #{name}, #{age}, #{gender})
+	</insert>
+
+	<select id="findAll" resultType="user">
+
+		select * from user
+
+	</select>
+
+	<select id="findOne" resultType="user" parameterType="user">
+
+		select * from user
+		<where>
+
+			<if test="id != null and id != 0">
+				and id=#{id}
+			</if>
+
+			<if test="name != null">
+				and name=#{name}
+			</if>
+
+			<if test="age != null">
+				and age=#{age}
+			</if>
+
+			<if test="gender != null">
+				and gender=#{gender}
+			</if>
+
+		</where>
+
+	</select>
+
+	<select id="findByIds" resultType="com.itheima.domain.User">
+
+		select * from user
+
+		<where>
+		
+			<if test="_parameter != null and _parameter.size() > 0">
+				<foreach collection="list" open="and id in (" close=")" item="id" separator=",">
+					#{id}
+				</foreach>
+			</if>
+			
+		</where>
+
+	</select>
+
+	<select id="findByConditions" resultType="user">
+		SELECT * FROM user
+		<where>
+			<if test="id != null and id != 0">
+				id=#{id}
+			</if>
+			<if test="name != null">
+				name=#{name}
+			</if>
+			<if test="age != null and age != 0">
+				age=#{age}
+			</if>
+			<if test="gender != null">
+				gender=#{gender}
+			</if>
+		</where>
+	</select>
+
+	<select id="findLikeName" resultType="user">
+		SELECT * FROM user WHERE name LIKE #{name}
+	</select>
+
+
+
+</mapper>
