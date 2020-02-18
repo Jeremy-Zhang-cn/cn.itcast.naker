@@ -20,7 +20,7 @@ public class UserTest {
 
 	private SqlSession sqlSession = null;
 
-	UserMapper mapper = null;
+	private UserMapper mapper = null;
 
 	@Before
 	public void init() throws IOException {

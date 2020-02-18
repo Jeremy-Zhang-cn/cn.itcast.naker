@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.mapper.OrderMapper">
+
+<!--
+
+	&lt;!&ndash; 结果集映射（结果集的对应关系） &ndash;&gt;
+	<resultMap id="myOrder" type="order">
+		<result property="id" column="id"/>
+		<result property="orderTime" column="orderTime"/>
+		<result property="total" column="total"/>
+
+		<result property="user.id" column="id"/>
+		<result property="user.username" column="username"/>
+		<result property="user.password" column="password"/>
+	</resultMap>
+-->
+<!--
+	&lt;!&ndash; 结果集映射（结果集的对应关系） &ndash;&gt;
+	<resultMap id="myOrder" type="order">
+		<id property="id" column="id"/>
+		<result property="orderTime" column="orderTime"/>
+		<result property="total" column="total"/>
+		<result column="uid" property="uid"/>
+
+		<association property="user" javaType="user">
+&lt;!&ndash;			<id property="id" column="id"/>&ndash;&gt;
+			<result property="username" column="username"/>
+			<result property="password" column="password"/>
+		</association>
+
+	</resultMap>
+	-->
+
+	<!-- 结果集映射（结果集的对应关系） -->
+	<resultMap id="myOrder" type="order">
+		<id property="id" column="id"/>
+		<result property="orderTime" column="orderTime"/>
+		<result property="total" column="total"/>
+
+		<association property="user" column="uid" javaType="User"
+		             select="com.itheima.mapper.UserMapper.getById"/>
+
+	</resultMap>
+
+
+	<select id="listAll" resultMap="myOrder">
+		SELECT * from `sys_order`
+	</select>
+
+	<select id="listByUid" resultType="order">
+		select * from `sys_order` where uid=#{uid}
+	</select>
+
+</mapper>
+
