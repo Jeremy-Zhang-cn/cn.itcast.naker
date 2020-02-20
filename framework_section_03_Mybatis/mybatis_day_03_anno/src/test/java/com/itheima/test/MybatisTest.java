@@ -82,4 +82,18 @@ public class MybatisTest {
 			System.out.println(u);
 		}
 	}
+
+
+	@Test
+	public void listAllUserAndRoleTest() {
+
+		List<User> userList = userMapper.listUserAndRoleAll();
+
+		for (User user : userList) {
+			System.out.println(user);
+			System.out.println(user.getRoles());
+			System.out.println("~~~~~~~~~~~~");
+
+		}
+	}
 }

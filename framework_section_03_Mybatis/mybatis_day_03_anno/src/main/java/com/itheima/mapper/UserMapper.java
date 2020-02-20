@@ -40,4 +40,19 @@ public interface UserMapper {
 			"</script>")
 	List<User> listByCondition(User user);
 
+
+	@Select("SELECT * FROM `sys_user`")
+	@Results({
+			@Result(id = true, column = "id", property = "id"),
+			@Result(column = "username", property = "username"),
+			@Result(column = "password", property = "password"),
+			@Result(
+					property = "roles",
+					column = "id",
+					javaType = List.class,
+					many = @Many(select = "com.itheima.mapper.RoleMapper.listByUid")
+			)
+	})
+	List<User> listUserAndRoleAll();
+
 }

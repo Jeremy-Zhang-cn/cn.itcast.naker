@@ -1,0 +1,9 @@
+{
+  "name": "frontage_day_01_Node_start",
+  "version": "1.0.0",
+  "dependencies": {
+    "css-loader": "^3.4.2",
+    "express": "^4.17.1",
+    "style-loader": "^1.1.3"
+  }
+}
