@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65277c7d-c692-4a53-9f9e-97a016b4ae73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../frontage_section_01_Node_js/frontage_day_01_ES6/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage_section_01_Node_js/frontage_day_01_ES6/es6/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage_section_01_Node_js/frontage_day_01_ES6/es6/test/map和reduce方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage_section_01_Node_js/frontage_day_01_ES6/es6/test/promise使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage_section_01_Node_js/frontage_day_01_ES6/es6/test/对象扩展方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage_section_01_Node_js/frontage_day_01_ES6/es6/test/数组扩展方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage_section_01_Node_js/frontage_day_01_ES6/es6/test/箭头函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage_section_01_Node_js/frontage_day_01_ES6/es6/test/解构表达式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_02_钩子函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_03_钩子函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_05_v-model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_06_v-on.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_07_v-for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_08_v-if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_09_v-bind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_10_compute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_11_watch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_12_组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_13_父子组件通信.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_14_子组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_15_axios.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/artifacts/maven_adv_day_01_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/artifacts/maven_adv_day_01_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_tx_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/maven_adv_day_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/src/main/java/com/itheima/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/src/main/java/com/itheima/domain/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/src/main/java/com/itheima/mapper/ItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/src/main/java/com/itheima/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/src/main/java/com/itheima/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/src/main/resources/com/itheima/mapper/ItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_adv/maven_day_01/maven_adv_day_01/src/main/webapp/pages/item.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/mapper/PatientMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/mapper/PatientMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontage_section_01_Node_js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontage_section_01_Node_js/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontage_section_01_Node_js/frontage_day_01_ES6/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontage_section_01_Node_js/frontage_day_01_ES6/package.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_13_父子组件通信.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_14_子组件.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-514">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_15_axios.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_06_v-on.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_01.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_02_钩子函数.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_03_钩子函数.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_04.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_05_v-model.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_06_v-on.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_07_v-for.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_02_v-if.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_08_v-if.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_09_v-bind.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_10_compute.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_11_watch.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_12_组件.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_13_父子组件通信.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_14_子组件.html" />
+        <option value="$PROJECT_DIR$/vue_day_01/vue_day_01/demo_15_axios.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="H:\programming\environment\maven\repository_pinyougou" />
+        <option name="mavenHome" value="H:/programming/environment/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="H:\programming\environment\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="70" />
+    <option name="y" value="59" />
+    <option name="width" value="1277" />
+    <option name="height" value="778" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65277c7d-c692-4a53-9f9e-97a016b4ae73" name="Default Changelist" comment="" />
+      <created>1582357776714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582357776714</updated>
+      <workItem from="1582357779986" duration="5013000" />
+      <workItem from="1582418534079" duration="890000" />
+      <workItem from="1582423982597" duration="6349000" />
+      <workItem from="1582504910221" duration="720000" />
+      <workItem from="1582510816334" duration="5812000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18784000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="70" y="59" width="1277" height="778" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24979253" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3279743" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.18008299" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vue_day_01/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_02_钩子函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_03_钩子函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_05_v-model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_06_v-on.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_07_v-for.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_08_v-if.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_09_v-bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_10_compute.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_11_watch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_12_组件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_13_父子组件通信.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_14_子组件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-514">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue_day_01/vue_day_01/demo_15_axios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>vue_day_01</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>demo_13</title>
+	<script src="../node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+
+	<div id="app">
+		<!-- 使用组件 -->
+		<introduce :title="msg" :title2="test"></introduce>
+
+		<my-list :items="lessons" :items2="lessons2"></my-list>
+
+	</div>
+
+	<script>
+		//定义组件
+		const introduce = {
+
+			template:`<div>
+					      <h2>{{title}}</h2>
+					      <h3>{{title2}}</h3>
+					  </div>`,
+			//定义接受父组件的属性
+			props:["title", "title2"]
+		};
+
+		const myList = {
+			template:``,
+			props: {
+				items:{
+					//数据类型，如果是数组则为Array,如果是对象则为Object
+					type:Array,
+					//默认值
+					default() {
+						let data = [
+							{"id":1, "name":"Java"},
+							{"id":2, "name":"Python"},
+							{"id":3, "name":"Go"},
+						]
+
+						return data
+					}
+				},
+
+				items2:{
+					type:Object,
+					default:[]
+				}
+			}
+		};
+
+		//全局注册组件：在所有的vue实例中都可以使用组件
+		Vue.component("introduce", introduce);
+
+		let app = new Vue({
+			el:"#app",
+			data:{
+				msg:"父组件的msg属性数据内容",
+				test:"第二个属性",
+				lessons:[
+					{"id":4, "name":"Java"},
+					{"id":5, "name":"Python"},
+					{"id":6, "name":"Go"}
+				],
+
+				lessons2:{"id":4,"name":"Java"}
+			},
+			components:{myList}
+		});
+
+	</script>
+
+</body>
+</html>

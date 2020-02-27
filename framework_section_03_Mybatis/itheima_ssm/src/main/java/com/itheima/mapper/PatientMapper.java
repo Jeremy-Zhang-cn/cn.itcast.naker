@@ -3,6 +3,7 @@ package com.itheima.mapper;
 import com.itheima.domain.Department;
 import com.itheima.domain.Patient;
 import org.apache.ibatis.annotations.*;
+import org.apache.ibatis.type.JdbcType;
 
 import java.util.List;
 
@@ -27,19 +28,19 @@ public interface PatientMapper {
 	List<Patient> listAll();	//展示所有用户信息
 
 	@Select("<script>" +
-			"	SELECT * FROM `patient`" +
+			"	SELECT p.id, p.name p_name, p.gender, p.did FROM `patient` p" +
 			"	<where>" +
 			"		<if test='name != null'>" +
-			"			AND name LIKE #{name}" +
+			"			AND p_name LIKE #{name}" +
 			"		</if>" +
 			"		<if test='true'>" +
-			"			ORDER BY id" +
+			"			ORDER BY p.id" +
 			"		</if>" +
 		"		</where>" +
 			"</script>")
 	@Results({
 			@Result(id = true, column = "id", property = "id"),
-			@Result(column = "name", property = "name"),
+			@Result(column = "p_name", property = "name", jdbcType = JdbcType.VARCHAR),
 			@Result(column = "gender", property = "gender"),
 			@Result(column = "did", property = "did"),
 			@Result(

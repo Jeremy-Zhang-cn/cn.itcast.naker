@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<script src="../node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+
+	<div id="app">
+
+		<ul>
+			<li v-for="(user,index) in users" v-if="user.gender=='女'" style="background-color:deeppink">
+				{{index}}--{{user.name}}--{{user.age}}--{{user.gender}}
+			</li>
+			<li v-else style="background-color: blue">
+				{{index}}--{{user.name}}--{{user.age}}--{{user.gender}}
+			</li>
+		</ul>
+
+	</div>
+
+	<script>
+		let app = new Vue({
+			el:"#app",
+			data:{
+				users:[
+					{"name":"Jerry","age":21,"gender":"男"},
+					{"name":"Rose","age":22,"gender":"女"},
+					{"name":"Jack","age":22,"gender":"男"}
+				]
+			}
+		});
+	</script>
+
+</body>
+</html>

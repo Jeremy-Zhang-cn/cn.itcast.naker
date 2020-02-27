@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<script>
+
+	const print = (obj) => console.log(obj);
+	print("print...");
+
+	const sum = (a, b) => a + b;
+	console.log(sum(1, 2));
+
+	const sum_1 = (a, b) => {
+		console.log(a, b);
+		return a + b;
+	};
+
+	console.log(sum_1(1, 2));
+
+	let person = {
+		"name": "Jerry",
+		//不给定参数默认为java
+		course_1: function (course = "java") {
+			console.log(this.name + "学习" + course);
+		},
+		//箭头函数：不能使用this
+		course_2: (course) => console.log(person.name + "学习" + course),
+		//简写
+		course_3(course) {
+			console.log(this.name + "学习" + course);
+		}
+	};
+
+	person.course_1();
+	person.course_2("JavaScript");
+	person.course_3("goLang");
+
+	const person_1 = {
+		name: "Jerry",
+		age: 21,
+		language: ["Java", "goLang", "python"]
+	};
+
+	function fun(person) {
+		console.log("hello, " + person.name);
+	}
+
+	fun(person_1);
+
+	//箭头函数、解构表达式
+	//此处的{name}意为未来传递的对象必须有一个name属性，否则无法使用
+	//var {name} = person
+	const func = ({name}) => console.log("func " + name);
+	func(person);
+
+</script>
+
+<body>
+
+</body>
+</html>

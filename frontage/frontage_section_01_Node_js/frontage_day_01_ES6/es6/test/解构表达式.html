@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>解构表达式</title>
+</head>
+
+<script>
+
+	let arr = [1, 2, 3];
+	const [x, y, z] = arr;  //x, y, z将与arr中的每个位置对应来取值
+
+	console.log(x, y, z);
+
+	const person = {
+		name:"Jerry",
+		age:21,
+		language:['english', 'japanese','mandarin','germany']
+	};
+
+	//解构表达式获取值
+	const {name, age, language} = person;
+
+	console.log(name);
+	console.log(age);
+	console.log(language);
+
+	const {name:name_1}=person;
+	console.log(name_1);
+
+	const {language: lan, ...obj} = person;
+	console.log(lan);
+	console.log(obj);
+
+
+</script>
+
+<body>
+
+</body>
+</html>

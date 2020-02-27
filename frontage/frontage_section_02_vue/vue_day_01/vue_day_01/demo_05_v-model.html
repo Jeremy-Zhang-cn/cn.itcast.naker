@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>demo_05</title>
+
+	<script src="../node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+
+	<div id="app">
+		<input type="checkbox" value="Java" v-model="language">Java<br>
+		<input type="checkbox" value="Python" v-model="language">Python<br>
+		<input type="checkbox" value="Go" v-model="language">Go<br>
+
+		<h2>
+			你选择了：{{language.join(",")}}
+		</h2>
+
+		<input type="checkbox" value="single" v-model="single">single<br>
+		<select v-model="select">
+			<option value="volvo">Volvo</option>
+			<option value="saab">Saab</option>
+			<option value="opel">Opel</option>
+			<option value="audi">Audi</option>
+		</select>
+
+		<textarea v-model="textarea"></textarea>
+
+	</div>
+
+	<script>
+		let app = new Vue({
+			el:"#app",
+			data: {
+				language: [],
+				single: false,
+				select:'opel',
+				textarea:'this is a textarea'
+			}
+		});
+	</script>
+
+</body>
+</html>

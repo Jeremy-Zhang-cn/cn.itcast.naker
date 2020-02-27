@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d47a76f6-9af8-4d98-9fec-bdccac80b130" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/dubbo_demo_consumer_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/dubbo_demo_consumer_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/dubbo_demo_provider_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/dubbo_demo_provider_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo_consumer/dubbo_demo_consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo_consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo_consumer/src/main/java/com/itheima/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo_consumer/src/main/java/com/itheima/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo_consumer/src/main/resources/applicationContext-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo_consumer/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo_consumer/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo_provider/dubbo_demo_provider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo_provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo_provider/src/main/java/com/itheima/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo_provider/src/main/java/com/itheima/service/impl/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo_provider/src/main/resources/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo_provider/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo_demo_provider/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_01_Node_js/frontage_day_01_ES6/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_01_Node_js/frontage_day_01_ES6/es6/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_01_Node_js/frontage_day_01_ES6/es6/test/map和reduce方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_01_Node_js/frontage_day_01_ES6/es6/test/promise使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_01_Node_js/frontage_day_01_ES6/es6/test/对象扩展方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_01_Node_js/frontage_day_01_ES6/es6/test/数组扩展方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_01_Node_js/frontage_day_01_ES6/es6/test/箭头函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_01_Node_js/frontage_day_01_ES6/es6/test/解构表达式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_02_钩子函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_03_钩子函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_05_v-model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_06_v-on.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_07_v-for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_08_v-if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_09_v-bind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_10_compute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_11_watch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_12_组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_13_父子组件通信.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_14_子组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/frontage_section_02_vue/vue_day_01/vue_day_01/demo_15_axios.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/artifacts/maven_adv_day_01_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/artifacts/maven_adv_day_01_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/artifacts/maven_parent_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/artifacts/maven_parent_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/artifacts/maven_web_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/artifacts/maven_web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_tx_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/maven_adv_day_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/java/com/itheima/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/java/com/itheima/domain/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/java/com/itheima/mapper/ItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/java/com/itheima/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/java/com/itheima/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/resources/applicationContext-all.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/resources/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/resources/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/resources/com/itheima/mapper/ItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/main/webapp/pages/item.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_day_01/maven_adv_day_01/src/test/java/com/itheima/test/MavenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_dao/maven_dao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_dao/src/main/java/com/itheima/dao/ItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_dao/src/main/resources/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_dao/src/main/resources/com/itheima/dao/ItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_dao/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_pojo/maven_pojo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_pojo/src/main/java/com/itheima/domain/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_service/maven_service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_service/src/main/java/com/itheima/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_service/src/main/java/com/itheima/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_service/src/main/resources/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_web/maven_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_web/src/main/java/com/itheima/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_web/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_web/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/maven_web/src/main/webapp/pages/item.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage/maven_adv/maven_parent/src/main/java/com/itheima/domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/mapper/PatientMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/mapper/PatientMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontage/frontage_section_01_Node_js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frontage/frontage_section_01_Node_js/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontage/frontage_section_01_Node_js/frontage_day_01_ES6/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontage/frontage_section_01_Node_js/frontage_day_01_ES6/package.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/dubbo_demo_provider/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo_demo_consumer/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo_demo_provider/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo_demo_consumer/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1776">
+              <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo_demo_consumer/src/main/java/com/itheima/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dubbo_demo_provider/src/main/java/com/itheima/service/impl/HelloServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo_demo_provider/src/main/resources/applicationContext-service.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="32" column="91" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="ssm applicationContext" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dubbo_demo_provider/src/main/java/com/itheima/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/dubbo_demo_consumer/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/dubbo_demo_provider/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/dubbo_demo_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_demo_consumer/src/main/resources/applicationContext-web.xml" />
+        <option value="$PROJECT_DIR$/dubbo_demo_consumer/src/main/java/com/itheima/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/dubbo_demo_provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo_demo_provider/src/main/resources/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/dubbo_demo_provider/src/main/java/com/itheima/service/impl/HelloServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="H:\programming\environment\maven\repository_pinyougou" />
+        <option name="mavenHome" value="H:/programming/environment/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="H:\programming\environment\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo_demo_consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo_demo_consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo_demo_consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo_demo_provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo_demo_provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo_demo_provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="233" />
+    <option name="y" value="59" />
+    <option name="width" value="1277" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo_section" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo_demo_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dubbo_demo_provider/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\files\GitPros\itcastPros\dubbo_section\dubbo_demo_provider\src\main\resources" />
+      <recent name="F:\files\GitPros\itcastPros\dubbo_section\dubbo_demo_consumer\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\files\GitPros\itcastPros\dubbo_section\dubbo_demo_consumer\src\main\webapp" />
+      <recent name="F:\files\GitPros\itcastPros\dubbo_section\dubbo_demo_provider\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.dubbo_demo_consumer [tomcat7:run]">
+    <configuration name="dubbo_demo_consumer [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/dubbo_demo_consumer" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="dubbo_demo_provider [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/dubbo_demo_provider" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.dubbo_demo_consumer [tomcat7:run]" />
+        <item itemvalue="Maven.dubbo_demo_provider [tomcat7:run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d47a76f6-9af8-4d98-9fec-bdccac80b130" name="Default Changelist" comment="" />
+      <created>1582704858018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582704858018</updated>
+      <workItem from="1582704860523" duration="2928000" />
+      <workItem from="1582708111882" duration="1807000" />
+      <workItem from="1582763800057" duration="8166000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12901000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="233" y="59" width="1277" height="777" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24979253" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39774558" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.25394192" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dubbo_demo_provider/src/main/java/com/itheima/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_demo_consumer/src/main/java/com/itheima/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_demo_consumer/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_demo_provider/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_demo_consumer/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_demo_consumer/src/main/resources/applicationContext-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_demo_provider/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_demo_consumer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1776">
+          <caret line="95" column="28" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_demo_consumer/src/main/java/com/itheima/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_demo_provider/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_demo_provider/src/main/resources/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="32" column="91" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo_demo_provider/src/main/java/com/itheima/service/impl/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|dubbo_demo_consumer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

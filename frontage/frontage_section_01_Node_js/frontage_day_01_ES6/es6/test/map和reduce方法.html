@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<script>
+
+	//map方法的使用
+	let arr = [3, 2, 1];
+	let array = arr.map(function (elem) {
+		return elem * elem * elem;
+	});
+
+	console.log(array);
+
+	//reduce方法的使用
+	let a = arr.reduce((a, b) => a + b);
+	console.log(a);
+
+</script>
+
+<body>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>demo_12</title>
+	<script src="../node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+
+	<div id="app">
+
+		<!-- 使用组件 -->
+		<counter></counter>
+
+	</div>
+
+	<script>
+
+		//定义组件
+		const counter = {
+			template:"<button @click='num++'>点击了{{num}}次</button>",
+			data() {
+				return {num:0}
+			}
+		};
+
+		//全局注册组件：在所有的vue实例中都可以使用组件
+		//参数1:组件名称, 参数2: 具体的组件
+
+		let app = new Vue({
+			el:"#app",
+			components:{
+				counter:counter
+			}
+		});
+
+	</script>
+
+</body>
+</html>

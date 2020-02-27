@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+	<!-- 当前应用名称，用于注册重心计算应用依赖关系，消费者和提供者应用名不可以一样 -->
+	<dubbo:application name="dubbo_demo_provider"/>
+	<!-- 连接注册服务中心zookeeper ip为zookeeper所在服务器的ip地址 -->
+	<dubbo:registry address="zookeeper://localhost:2181"/>
+	<!-- 注册协议和port 端口默认为20880 -->
+	<dubbo:protocol name="dubbo" port="20880"/>
+	<!-- 扫描指定包，加入@Service注解的类会被发布为服务 -->
+	<dubbo:annotation package="com.itheima.service.impl"/>
+
+	<!--数据源-->
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
+		<property name="username" value="root" />
+		<property name="password" value="dingjie0822" />
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/test" />
+	</bean>
+	<!-- 事务管理器  -->
+	<bean id="transactionManager"
+	      class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+	<!--开启事务控制的注解支持-->
+	<tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
+
+</beans>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+
+<script>
+
+	let p = {"name":"Jack", "age": 21}
+	console.log(Object.keys(p));
+	console.log(Object.values(p));
+	console.log(Object.entries(p));
+
+	//测试覆盖问题
+	let obj = {"name":"Rose"}
+	console.log(Object.assign(obj, p));
+	console.log(Object.assign(obj, p, {"address":"Zhengzhou"}));
+
+	let obj2 = {"name":{"test":"ZhangSan"},"age":23}
+	let obj3 = {};
+	Object.assign(obj3, obj2);
+	console.log(obj3);
+	obj2.age = 18;
+	console.log("age-obj2:" + JSON.stringify(obj2));
+	console.log("age-obj3:" + JSON.stringify(obj3));
+	obj2.name.test="LeeSi";
+	console.log("name.test=obj2:" + JSON.stringify(obj2));
+	console.log("name.test-obj3:" + JSON.stringify(obj3));
+
+
+
+</script>
+<body>
+
+</body>
+</html>

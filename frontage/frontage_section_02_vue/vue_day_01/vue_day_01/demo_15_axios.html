@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>demo_15</title>
+	<script src="../node_modules/vue/dist/vue.js"></script>
+	<script src="../node_modules/axios/dist/axios.js"></script>
+</head>
+<body>
+
+	<div id="app">
+
+		<ul>
+			<li v-for="(user,index) in users" :key="index">
+				{{index}}-{{user.name}}-{{user.age}}-{{user.gender}}
+			</li>
+		</ul>
+
+	</div>
+
+	<script>
+		let app = new Vue({
+			el:"#app",
+			data:{
+				users:[]
+			},
+			created() {
+				//初始化加载数据
+				axios.post("data.json").then(res=>{
+					console.log(res);
+					//将数据赋值到vue实例中的数据属性users;
+					this.users=res.data;
+				}).catch(err=>alert(err));
+
+				axios.get("http://localhost/user/8").then(res=>{
+					console.log(res.data);
+				}).catch(err=>alert(err));
+
+				axios.get("data.json").then(res=>{
+					console.log(res);
+					this.users = res.data;
+				}).catch(err=>alert(err));
+
+				axios({
+					url: "data.json",
+					method: "get"
+				}).then(res => {
+					console.log(res);
+					this.users = res.data;
+				}).catch(err => alert(err));
+			}
+		});
+
+	</script>
+
+</body>
+</html>

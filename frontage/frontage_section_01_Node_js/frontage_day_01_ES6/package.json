@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel demo.js --out-file bunder.js"
   }
 }

@@ -2,97 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c3530e8-56a8-4311-9f6f-834ac8deb256" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/artifacts/itheima_ssm_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/artifacts/itheima_ssm_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/artifacts/mybatis_test_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/artifacts/mybatis_test_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_springframework_spring_test_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_springframework_spring_tx_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_springframework_spring_web_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/itheima_ssm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/controller/PatientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/domain/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/domain/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/mapper/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/mapper/PatientMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/service/PatientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/service/impl/PatientServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_day_03_anno/src/main/java/com/itheima/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_day_03_anno/src/main/java/com/itheima/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/mybatis_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/src/main/java/com/itheima/controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/src/main/java/com/itheima/mapper/AccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/src/main/java/com/itheima/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/src/main/java/com/itheima/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/src/main/resources/sqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/src/main/webapp/pages/save.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_test/src/main/webapp/pages/show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/arrow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_ES6/frontage_day_01_ES6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_ES6/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_Node_start/frontage_day_01_Node_start.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_Node_start/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_Node_start/node/demo/demo_01.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_Node_start/node/demo/demo_02.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_Node_start/node/demo/demo_04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_Node_start/node/demo/demo_05.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_Node_start/node/demo/demo_3_01.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_Node_start/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_Node_start/src/bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_Node_start/src/css/css1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_Node_start/src/logic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_Node_start/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontage_day_01_Node_start/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_day_03_anno/src/main/java/com/itheima/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_day_03_anno/src/main/java/com/itheima/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_day_03_anno/src/test/java/com/itheima/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/mybatis_day_03_anno/src/test/java/com/itheima/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontage_day_01_ES6/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontage_day_01_ES6/es6/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/map和reduce方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/promise使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/对象扩展方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/数组扩展方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/箭头函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/解构表达式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage_section_02_vue/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage_section_02_vue/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage_section_02_vue/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage_section_02_vue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage_section_02_vue/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontage_section_02_vue/vue_day_01/vue_day_01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/mapper/PatientMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../framework_section_03_Mybatis/itheima_ssm/src/main/java/com/itheima/mapper/PatientMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontage_day_01_ES6/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontage_day_01_ES6/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,10 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontage_day_01_ES6/es6/test/arrow.js">
+        <entry file="file://$PROJECT_DIR$/frontage_day_01_ES6/es6/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -144,8 +70,18 @@
         <option value="$PROJECT_DIR$/frontage_day_01_Node_start/src/logic.js" />
         <option value="$PROJECT_DIR$/frontage_day_01_Node_start/src/main.js" />
         <option value="$PROJECT_DIR$/frontage_day_01_Node_start/webpack.config.js" />
-        <option value="$PROJECT_DIR$/frontage_day_01_ES6/package.json" />
         <option value="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/arrow.js" />
+        <option value="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/结构表达式.html" />
+        <option value="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/解构表达式.html" />
+        <option value="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/箭头函数.html" />
+        <option value="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/map方法.html" />
+        <option value="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/map和reduce方法.html" />
+        <option value="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/promise使用.html" />
+        <option value="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/对象扩展方法.html" />
+        <option value="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/数组扩展方法.html" />
+        <option value="$PROJECT_DIR$/frontage_day_01_ES6/es6/test/demo.js" />
+        <option value="$PROJECT_DIR$/frontage_day_01_ES6/package.json" />
+        <option value="$PROJECT_DIR$/frontage_day_01_ES6/.babelrc" />
       </list>
     </option>
   </component>
@@ -172,11 +108,11 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="101" />
-    <option name="y" value="70" />
-    <option name="width" value="1277" />
-    <option name="height" value="774" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="187" />
+    <option name="y" value="57" />
+    <option name="width" value="1094" />
+    <option name="height" value="763" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -186,6 +122,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,14 +133,13 @@
             </path>
             <path>
               <item name="frontage_section_01_Node_js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontage_day_01_Node_start" type="462c0819:PsiDirectoryNode" />
+              <item name="frontage_day_01_ES6" type="462c0819:PsiDirectoryNode" />
+              <item name="es6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,6 +154,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\files\GitPros\itcastPros\frontage\frontage_section_01_Node_js\frontage_day_01_ES6\es6" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -245,11 +187,13 @@
       <workItem from="1582177688622" duration="8321000" />
       <workItem from="1582189738898" duration="26000" />
       <workItem from="1582190013168" duration="1273000" />
+      <workItem from="1582206089722" duration="716000" />
+      <workItem from="1582332275965" duration="6377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15248000" />
+    <option name="totallyTimeSpent" value="22341000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -261,10 +205,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="70" width="1277" height="774" extended-state="1" />
-    <editor active="true" />
+    <frame x="187" y="57" width="1094" height="763" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23485477" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24363992" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -281,7 +224,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2880259" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29324546" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -389,17 +332,73 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontage_day_01_ES6/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/frontage_day_01_ES6/package.json">
+    <entry file="file://$PROJECT_DIR$/frontage_day_01_ES6/es6/test/解构表达式.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="-134">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontage_day_01_ES6/es6/test/arrow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="96">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontage_day_01_ES6/es6/test/箭头函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontage_day_01_ES6/es6/test/map和reduce方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontage_day_01_ES6/es6/test/promise使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontage_day_01_ES6/es6/test/对象扩展方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontage_day_01_ES6/es6/test/数组扩展方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontage_day_01_ES6/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontage_day_01_ES6/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontage_day_01_ES6/es6/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

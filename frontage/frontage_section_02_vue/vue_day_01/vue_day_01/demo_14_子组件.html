@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<script src="../node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+
+	<div id="app">
+		<h2>{{num}}</h2>
+		<!-- 使用组件 -->
+		<counter @plus="numPlus" @reduce="numReduce" :num="num"></counter>
+
+	</div>
+
+	<script>
+
+		//定义组件
+		const counter = {
+			template:`
+				<div>
+					<button @click="increment">+</button>
+					<button @click="decrement">-</button>
+				</div>
+			`,
+			props:["num"],
+			methods:{
+				increment() {
+					//调用父组件中的方法
+					return this.$emit("plus");
+				},
+				decrement() {
+					//调用父组件中的方法
+					return this.$emit("reduce");
+				}
+			}
+		};
+
+		let app = new Vue({
+
+			el:"#app",
+			components:{
+				counter:counter
+			},
+			data:{
+				num : 0
+			},
+			methods: {
+				numPlus() {
+					this.num++;
+				},
+				numReduce() {
+					this.num--;
+				}
+			}
+		});
+
+	</script>
+
+</body>
+</html>
