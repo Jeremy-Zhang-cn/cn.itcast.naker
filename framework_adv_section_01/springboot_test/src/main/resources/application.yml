@@ -1,0 +1,20 @@
+server:
+  port: 8088
+
+name: Jerry
+
+#对象
+
+
+address:
+  - beijing
+  - shanghai
+msg1: 'hello \n world' #单引号忽略转义字符
+msg2: "hello \n world" #双引号识别转义字符
+
+person:
+  address:
+    - beijing
+    - shanghai
+  name: ${name}
+  age: 23
