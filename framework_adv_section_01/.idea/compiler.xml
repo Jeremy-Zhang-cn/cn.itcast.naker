@@ -6,14 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="plugins_test" />
         <module name="profile_test" />
         <module name="springboot_test" />
+        <module name="springboot-condition_manual" />
+        <module name="redis-springboot-starter" />
+        <module name="springboot-enable" />
+        <module name="springboot-listener" />
+        <module name="springboot-condition" />
+        <module name="redis-springboot-autoconfigure" />
+        <module name="plugins_test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="plugins_test" target="1.8" />
       <module name="profile_test" target="1.8" />
+      <module name="redis-springboot-autoconfigure" target="1.8" />
+      <module name="redis-springboot-starter" target="1.8" />
+      <module name="springboot-condition" target="1.8" />
+      <module name="springboot-condition_manual" target="1.8" />
+      <module name="springboot-enable" target="1.8" />
+      <module name="springboot-listener" target="1.8" />
       <module name="springboot_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +33,12 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="plugins_test" options="-parameters" />
       <module name="profile_test" options="-parameters" />
+      <module name="redis-springboot-autoconfigure" options="-parameters" />
+      <module name="redis-springboot-starter" options="-parameters" />
+      <module name="springboot-condition" options="-parameters" />
+      <module name="springboot-condition_manual" options="-parameters" />
+      <module name="springboot-enable" options="-parameters" />
+      <module name="springboot-listener" options="-parameters" />
       <module name="springboot_test" options="-parameters" />
     </option>
   </component>
