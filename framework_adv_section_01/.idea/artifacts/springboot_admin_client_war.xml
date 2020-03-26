@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-admin-client:war">
+    <output-path>$PROJECT_DIR$/springboot-admin-client/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springboot-admin-client</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springboot-admin-client.war">
+      <element id="artifact" artifact-name="springboot-admin-client:war exploded" />
+    </root>
+  </artifact>
+</component>

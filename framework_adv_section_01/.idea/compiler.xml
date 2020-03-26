@@ -8,12 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="profile_test" />
         <module name="springboot_test" />
+        <module name="springboot-admin-server" />
         <module name="springboot-condition_manual" />
         <module name="redis-springboot-starter" />
-        <module name="springboot-enable" />
         <module name="springboot-listener" />
+        <module name="springboot-admin-client" />
         <module name="springboot-condition" />
+        <module name="springboot-enable" />
         <module name="redis-springboot-autoconfigure" />
+        <module name="springboot-actuator" />
         <module name="plugins_test" />
       </profile>
     </annotationProcessing>
@@ -22,6 +25,9 @@
       <module name="profile_test" target="1.8" />
       <module name="redis-springboot-autoconfigure" target="1.8" />
       <module name="redis-springboot-starter" target="1.8" />
+      <module name="springboot-actuator" target="1.8" />
+      <module name="springboot-admin-client" target="1.8" />
+      <module name="springboot-admin-server" target="1.8" />
       <module name="springboot-condition" target="1.8" />
       <module name="springboot-condition_manual" target="1.8" />
       <module name="springboot-enable" target="1.8" />
@@ -35,6 +41,9 @@
       <module name="profile_test" options="-parameters" />
       <module name="redis-springboot-autoconfigure" options="-parameters" />
       <module name="redis-springboot-starter" options="-parameters" />
+      <module name="springboot-actuator" options="-parameters" />
+      <module name="springboot-admin-client" options="-parameters" />
+      <module name="springboot-admin-server" options="-parameters" />
       <module name="springboot-condition" options="-parameters" />
       <module name="springboot-condition_manual" options="-parameters" />
       <module name="springboot-enable" options="-parameters" />
