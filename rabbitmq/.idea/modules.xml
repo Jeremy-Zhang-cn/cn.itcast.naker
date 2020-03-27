@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/rabbitmq_consumer/rabbitmq_consumer.iml" filepath="$PROJECT_DIR$/rabbitmq_consumer/rabbitmq_consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq_producer/rabbitmq_producer.iml" filepath="$PROJECT_DIR$/rabbitmq_producer/rabbitmq_producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_rabbitmq_consumer/spring_rabbitmq_consumer.iml" filepath="$PROJECT_DIR$/spring_rabbitmq_consumer/spring_rabbitmq_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_rabbitmq_producer/spring_rabbitmq_producer.iml" filepath="$PROJECT_DIR$/spring_rabbitmq_producer/spring_rabbitmq_producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_rabbitmq_consumer/springboot_rabbitmq_consumer.iml" filepath="$PROJECT_DIR$/springboot_rabbitmq_consumer/springboot_rabbitmq_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_rabbitmq_producer/springboot_rabbitmq_producer.iml" filepath="$PROJECT_DIR$/springboot_rabbitmq_producer/springboot_rabbitmq_producer.iml" />
     </modules>
   </component>
 </project>

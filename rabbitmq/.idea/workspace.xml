@@ -2,36 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327a69a8-9786-4e0c-860e-db14d7340525" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_consumer/rabbitmq_consumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/pubsub/ConsumerA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/pubsub/ConsumerB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/routing/ConsumerRoutingA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/routing/ConsumerRoutingB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/simpleQueue/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/work/ConsumerA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/work/ConsumerB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/util/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_producer/rabbitmq_producer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/rabbitmq/pubsub/ProducerPubSub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/rabbitmq/routing/ProducerRouting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/rabbitmq/simpleQueue/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/rabbitmq/work/ProducerWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/util/ConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/topics/ConsumerTopicA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/topics/ConsumerTopicB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/rabbitmq/topics/ProducerTopics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_consumer/spring_rabbitmq_consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/FanoutListenerA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/FanoutListenerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/SpringQueueListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/TopicListenerHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/TopicListenerStar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/TopicListenerWell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/resources/properties/rabbitmq.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/resources/spring/spring-rabbitmq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_consumer/src/test/java/com/itheima/rabbitmq_consumer/ConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_producer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_producer/spring_rabbitmq_producer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_producer/src/main/resources/properties/rabbitmq.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_producer/src/main/resources/spring/spring-rabbitmq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_rabbitmq_producer/src/test/java/com/itheima/rabbitmq/ProducerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/java/com/itheima/springboot_rabbitmq_consumer/config/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/java/com/itheima/springboot_rabbitmq_consumer/config/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/java/com/itheima/springboot_rabbitmq_consumer/listener/MyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_rabbitmq_producer/src/main/java/com/itheima/springboot_rabbitmq_producer/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_rabbitmq_producer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/rabbitmq_producer/target/" />
     <ignored path="$PROJECT_DIR$/rabbitmq_consumer/target/" />
+    <ignored path="$PROJECT_DIR$/springboot_rabbitmq_producer/target/" />
+    <ignored path="$PROJECT_DIR$/springboot_rabbitmq_consumer/target/" />
+    <ignored path="$PROJECT_DIR$/spring_rabbitmq_producer/target/" />
+    <ignored path="$PROJECT_DIR$/spring_rabbitmq_consumer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,40 +103,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_rabbitmq_producer/src/test/java/com/itheima/springboot_rabbitmq_producer/SpringbootRabbitmqProducerApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/java/com/itheima/springboot_rabbitmq_consumer/listener/MyListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/rabbitmq/routing/ProducerRouting.java">
+        <entry file="file://$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/java/com/itheima/springboot_rabbitmq_consumer/SpringbootRabbitmqConsumerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="25" column="72" lean-forward="true" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/routing/ConsumerRoutingA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/routing/ConsumerRoutingB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -82,6 +144,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -105,9 +168,34 @@
         <option value="$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/rabbitmq/pubsub/ProducerPubSub.java" />
         <option value="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/pubsub/ConsumerA.java" />
         <option value="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/pubsub/ConsumerB.java" />
-        <option value="$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/rabbitmq/routing/ProducerRouting.java" />
         <option value="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/routing/ConsumerRoutingA.java" />
+        <option value="$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/rabbitmq/routing/ProducerRouting.java" />
         <option value="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/routing/ConsumerRoutingB.java" />
+        <option value="$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/rabbitmq/topics/ProducerTopics.java" />
+        <option value="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/topics/ConsumerTopicA.java" />
+        <option value="$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/topics/ConsumerTopicB.java" />
+        <option value="$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/java/com/itheima/springboot_rabbitmq_consumer/config/User.java" />
+        <option value="$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/java/com/itheima/springboot_rabbitmq_consumer/config/UserTest.java" />
+        <option value="$PROJECT_DIR$/spring_rabbitmq_producer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_rabbitmq_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_rabbitmq_producer/src/main/resources/rabbitmq.properties" />
+        <option value="$PROJECT_DIR$/spring_rabbitmq_producer/src/main/resources/spring/spring-rabbitmq.xml" />
+        <option value="$PROJECT_DIR$/spring_rabbitmq_producer/src/test/java/com/itheima/rabbitmq/ProducerTest.java" />
+        <option value="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/resources/spring/spring-rabbitmq.xml" />
+        <option value="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/SpringQueueListener.java" />
+        <option value="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/FanoutListenerA.java" />
+        <option value="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/FanoutListenerB.java" />
+        <option value="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/TopicListenerStar.java" />
+        <option value="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/TopicListenerWell.java" />
+        <option value="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/TopicListenerHash.java" />
+        <option value="$PROJECT_DIR$/spring_rabbitmq_consumer/src/test/java/com/itheima/rabbitmq_consumer/ConsumerTest.java" />
+        <option value="$PROJECT_DIR$/springboot_rabbitmq_producer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_rabbitmq_producer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot_rabbitmq_producer/src/main/java/com/itheima/springboot_rabbitmq_producer/config/RabbitMQConfig.java" />
+        <option value="$PROJECT_DIR$/springboot_rabbitmq_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/java/com/itheima/springboot_rabbitmq_consumer/listener/MyListener.java" />
+        <option value="$PROJECT_DIR$/springboot_rabbitmq_producer/src/test/java/com/itheima/springboot_rabbitmq_producer/SpringbootRabbitmqProducerApplicationTests.java" />
       </list>
     </option>
   </component>
@@ -126,14 +214,36 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring_rabbitmq_consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring_rabbitmq_consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring_rabbitmq_consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="493" />
-    <option name="y" value="66" />
-    <option name="width" value="1186" />
-    <option name="height" value="778" />
+    <option name="x" value="148" />
+    <option name="y" value="32" />
+    <option name="width" value="1332" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -148,89 +258,29 @@
           <expand>
             <path>
               <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="routing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -238,7 +288,7 @@
             </path>
             <path>
               <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -247,38 +297,157 @@
             </path>
             <path>
               <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="routing" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_rabbitmq_producer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -287,11 +456,18 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\files\GitPros\itcastPros\rabbitmq\spring_rabbitmq_consumer\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.listener" />
+      <recent name="com.itheima.rabbitmq.topics" />
       <recent name="com.itheima.rabbitmq.routing" />
       <recent name="com.itheima.rabbitmq.pubsub" />
       <recent name="com.itheima.rabbitmq.work" />
-      <recent name="com.itheima.util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\files\GitPros\itcastPros\rabbitmq\spring_rabbitmq_producer\src\main\resources\properties" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,79 +482,108 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConsumerRoutingB">
-    <configuration name="ConsumerA (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.rabbitmq.pubsub.ConsumerA" />
-      <module name="rabbitmq_consumer" />
+  <component name="RunManager" selected="Spring Boot.SpringbootRabbitmqConsumerApplication">
+    <configuration name="ConsumerTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_rabbitmq_consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.rabbitmq.pubsub.*" />
+          <option name="PATTERN" value="com.itheima.rabbitmq_consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.rabbitmq_consumer" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.rabbitmq_consumer.ConsumerTest" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerB (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.rabbitmq.pubsub.ConsumerB" />
-      <module name="rabbitmq_consumer" />
+    <configuration name="ProducerTest.fanoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_rabbitmq_producer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.rabbitmq.pubsub.*" />
+          <option name="PATTERN" value="com.itheima.rabbitmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.rabbitmq.ProducerTest" />
+      <option name="METHOD_NAME" value="fanoutTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerRoutingA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.rabbitmq.routing.ConsumerRoutingA" />
-      <module name="rabbitmq_consumer" />
+    <configuration name="ProducerTest.queueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_rabbitmq_producer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.rabbitmq.routing.*" />
+          <option name="PATTERN" value="com.itheima.rabbitmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.rabbitmq.ProducerTest" />
+      <option name="METHOD_NAME" value="queueTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerRoutingB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.rabbitmq.routing.ConsumerRoutingB" />
-      <module name="rabbitmq_consumer" />
+    <configuration name="ProducerTest.topicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_rabbitmq_producer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.rabbitmq.routing.*" />
+          <option name="PATTERN" value="com.itheima.rabbitmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.rabbitmq.ProducerTest" />
+      <option name="METHOD_NAME" value="topicTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerRouting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.rabbitmq.routing.ProducerRouting" />
-      <module name="rabbitmq_producer" />
+    <configuration name="SpringbootRabbitmqProducerApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_rabbitmq_producer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.rabbitmq.routing.*" />
+          <option name="PATTERN" value="com.itheima.springboot_rabbitmq_producer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.springboot_rabbitmq_producer" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.springboot_rabbitmq_producer.SpringbootRabbitmqProducerApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRabbitmqConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_rabbitmq_consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.springboot_rabbitmq_consumer.SpringbootRabbitmqConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRabbitmqProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_rabbitmq_producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.springboot_rabbitmq_producer.SpringbootRabbitmqProducerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConsumerRoutingB" />
-        <item itemvalue="Application.ConsumerRoutingA" />
-        <item itemvalue="Application.ProducerRouting" />
-        <item itemvalue="Application.ConsumerB (1)" />
-        <item itemvalue="Application.ConsumerA (1)" />
+        <item itemvalue="JUnit.SpringbootRabbitmqProducerApplicationTests.test" />
+        <item itemvalue="JUnit.ConsumerTest.Test" />
+        <item itemvalue="JUnit.ProducerTest.topicTest" />
+        <item itemvalue="JUnit.ProducerTest.fanoutTest" />
+        <item itemvalue="JUnit.ProducerTest.queueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -392,59 +597,137 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585220910022</updated>
-      <workItem from="1585220913230" duration="7640000" />
+      <workItem from="1585220913230" duration="7951000" />
+      <workItem from="1585269348208" duration="9174000" />
+      <workItem from="1585318219605" duration="1495000" />
     </task>
+    <task id="LOCAL-00001" summary="RabbitMQ-day01&#10;简单测试；&#10;工作队列模式；&#10;路由模式">
+      <created>1585231870524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585231870524</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ProducerTest_queueTest - 2020.03.27 at 21h 36m 46s.xml">
+      <configuration name="ProducerTest.queueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_fanoutTest - 2020.03.27 at 21h 37m 40s.xml">
+      <configuration name="ProducerTest.fanoutTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_topicTest - 2020.03.27 at 21h 39m 13s.xml">
+      <configuration name="ProducerTest.topicTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsumerTest_Test - 2020.03.27 at 21h 59m 16s.xml">
+      <configuration name="ConsumerTest.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootRabbitmqProducerApplicationTests_test - 2020.03.27 at 22h 24m 13s.xml">
+      <configuration name="SpringbootRabbitmqProducerApplicationTests.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7640000" />
+    <option name="totallyTimeSpent" value="18620000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="499" y="67" width="1186" height="778" extended-state="0" />
+    <frame x="148" y="32" width="1332" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28994614" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23253968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3279743" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52572346" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39871383" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329582" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.329582" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24955116" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32944345" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="RabbitMQ-day01&#10;简单测试；&#10;工作队列模式；&#10;路由模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="RabbitMQ-day01&#10;简单测试；&#10;工作队列模式；&#10;路由模式" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/rabbitmq_producer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/util/ConnectionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -462,24 +745,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq_consumer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/simpleQueue/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/rabbitmq/simpleQueue/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
@@ -543,30 +816,267 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/routing/ConsumerRoutingB.java">
+    <entry file="file://$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/rabbitmq/simpleQueue/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="168">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/routing/ConsumerRoutingA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="528">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/routing/ConsumerRoutingB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/rabbitmq/routing/ProducerRouting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="72" lean-forward="true" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
+        <state relative-caret-position="456">
+          <caret line="25" column="100" selection-start-line="25" selection-start-column="100" selection-end-line="25" selection-end-column="100" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq_producer/src/main/java/com/itheima/rabbitmq/topics/ProducerTopics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/topics/ConsumerTopicA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq_consumer/src/main/java/com/itheima/rabbitmq/topics/ConsumerTopicB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/java/com/itheima/springboot_rabbitmq_consumer/config/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/java/com/itheima/springboot_rabbitmq_consumer/config/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_rabbitmq_producer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_rabbitmq_producer/src/main/resources/properties/rabbitmq.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_rabbitmq_producer/src/test/java/com/itheima/rabbitmq/ProducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="50" column="112" selection-start-line="50" selection-start-column="112" selection-end-line="50" selection-end-column="112" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/resources/properties/rabbitmq.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_rabbitmq_producer/src/main/resources/spring/spring-rabbitmq.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="60" column="81" selection-start-line="60" selection-start-column="81" selection-end-line="60" selection-end-column="81" />
+          <folding>
+            <element signature="e#877#895#0" expanded="true" />
+            <element signature="e#929#947#0" expanded="true" />
+            <element signature="e#985#1007#0" expanded="true" />
+            <element signature="e#1045#1067#0" expanded="true" />
+            <element signature="e#1109#1135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/TopicListenerWell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/TopicListenerHash.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/FanoutListenerA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/FanoutListenerB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/TopicListenerStar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_rabbitmq_consumer/src/test/java/com/itheima/rabbitmq_consumer/ConsumerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/resources/spring/spring-rabbitmq.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+          <folding>
+            <element signature="e#877#895#0" expanded="true" />
+            <element signature="e#929#947#0" expanded="true" />
+            <element signature="e#985#1007#0" expanded="true" />
+            <element signature="e#1045#1067#0" expanded="true" />
+            <element signature="e#1109#1135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_rabbitmq_consumer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_rabbitmq_consumer/src/main/java/com/itheima/listener/SpringQueueListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_rabbitmq_producer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_rabbitmq_producer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_rabbitmq_producer/src/main/java/com/itheima/springboot_rabbitmq_producer/SpringbootRabbitmqProducerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_rabbitmq_producer/src/main/java/com/itheima/springboot_rabbitmq_producer/config/RabbitMQConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="34" column="79" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_rabbitmq_consumer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_rabbitmq_producer/src/test/java/com/itheima/springboot_rabbitmq_producer/SpringbootRabbitmqProducerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/java/com/itheima/springboot_rabbitmq_consumer/listener/MyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_rabbitmq_consumer/src/main/java/com/itheima/springboot_rabbitmq_consumer/SpringbootRabbitmqConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -621,7 +1131,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>rabbitmq_consumer</last-edited>
+          <last-edited>spring_rabbitmq_consumer</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
