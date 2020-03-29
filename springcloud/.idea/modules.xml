@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud/config-server/configserver.iml" filepath="$PROJECT_DIR$/springcloud/config-server/configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/consumer-demo/consumerdemo.iml" filepath="$PROJECT_DIR$/springcloud/consumer-demo/consumerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/eureka-server/eurekaserver.iml" filepath="$PROJECT_DIR$/springcloud/eureka-server/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/heima-gateway/heimagateway.iml" filepath="$PROJECT_DIR$/springcloud/heima-gateway/heimagateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpDemo/httpDemo.iml" filepath="$PROJECT_DIR$/httpDemo/httpDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/springcloud/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud/user-service/userservice.iml" filepath="$PROJECT_DIR$/springcloud/user-service/userservice.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+server:
+  port: 9091
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springcloud
+    username: root
+    password: dingjie0822
+  application:
+    name: user-service
+
+
+mybatis:
+  type-aliases-package: com.itheima.userservice.pojo
+
