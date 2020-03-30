@@ -1,3 +1,37 @@
+server:
+  port: 8080
+
 spring:
   application:
     name: consumer-demo
+
+eureka:
+  client:
+    service-url:
+      # eureka server地址
+      defaultZone: http://localhost:10086/eureka
+      # 获取服务地址列表间隔时间，默认30秒
+    registry-fetch-interval-seconds: 10
+
+hystrix:
+  command:
+    default:
+      excution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 2000
+      circuitBreaker:
+        errorThresholdPercentage: 50 # 触发熔断错误比例阈值，默认为50%
+        sleepWindowInMilliseconds: 10000 # 熔断后休眠时长，默认为5秒
+        requestVolumeThreshold: 5 # 熔断触发最小请求次数，默认值是20
+
+ribbon:
+  ConnectTimeout: 1000 # 连接超时时长
+  ReadTimeout: 2000 # 数据通信超时时长
+  MaxAutoRetries: 0 # 当前服务器的重试次数
+  MaxAutoRetriesNextServer: 0 # 重试多少次服务
+  OkToRetryOnAllOperations: false # 是否对所有的请求方式都重试,无论是请求超时或者socket read timeout都进行重试，
+
+feign:
+  hystrix:
+    enabled: true # 开启Feign的熔断功能

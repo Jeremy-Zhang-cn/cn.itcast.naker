@@ -15,6 +15,13 @@ public class UserService {
 	 * 根据主键查询用户
 	 */
 	public User queryById(Long id) {
+		/*
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		*/
 		return userMapper.selectById(id);
 	}
 }
