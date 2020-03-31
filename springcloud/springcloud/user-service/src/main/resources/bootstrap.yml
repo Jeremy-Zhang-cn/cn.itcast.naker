@@ -1,0 +1,25 @@
+spring:
+  cloud:
+    config:
+      # 与远程仓库中的配置文件的application保持一致
+      name: user
+      # 与远程仓库中的配置文件的profile保持一致
+      profile: dev
+      #与远程仓库中的版本保持一致
+      label: master
+      discovery:
+        # 使用配置中心
+        enabled: true
+        # 配置中心服务 id
+        service-id: config-server
+
+# 配置rabbitmq信息
+  rabbitmq:
+    host: 115.29.110.2
+    port: 5672
+    username: Jeremy
+    password: dingjie0822
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka

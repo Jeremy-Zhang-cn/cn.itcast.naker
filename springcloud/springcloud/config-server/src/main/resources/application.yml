@@ -1,0 +1,28 @@
+server:
+  port: 12000
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/wanna2333/boot-config.git
+
+  rabbitmq:
+    host: 115.29.110.2
+    port: 5672
+    username: Jeremy
+    password: dingjie0822
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        # 暴露触发消息总线的地址
+        include: bus-refresh
